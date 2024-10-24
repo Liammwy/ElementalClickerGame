@@ -8261,3 +8261,1278 @@ Script call stack:
 [2024.10.24-14.09.28:254][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
 [2024.10.24-14.09.28:260][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
 [2024.10.24-14.09.28:316][780]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2024.10.24-14.09.53:534][843]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-14.09.53:540][843]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-14.09.53:541][843]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-14.09.53:542][843]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 90 ms)
+[2024.10.24-14.09.53:542][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-14.09.53:542][843]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 16:09:53)
+[2024.10.24-14.09.53:585][843]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.09.53:589][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004272s)
+[2024.10.24-14.09.53:589][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004350s)
+[2024.10.24-14.09.53:599][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.24-14.09.53:602][843]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.09.53:602][843]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.09.53:603][843]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-14.09.53:603][843]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-14.09.53:603][843]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-14.09.53:603][843]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-14.09.53:603][843]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-14.09.53:603][843]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-14.09.53:603][843]LogWorldPartition: Display: WorldPartition initialize took 533 us (total: 144 ms)
+[2024.10.24-14.09.53:603][843]LogPlayLevel: PIE: World Init took: (0.001828s)
+[2024.10.24-14.09.53:603][843]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2024.10.24-14.09.53:603][843]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-14.09.53:603][843]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-14.09.53:603][843]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-14.09.53:603][843]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-14.09.53:603][843]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-14.09.53:603][843]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-14.09.53:603][843]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-14.09.53:603][843]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-14.09.53:604][843]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-14.09.53:604][843]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-14.09.53:604][843]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-14.09.53:606][843]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-14.09.53:637][843]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-14.09.53:638][843]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-14.09.53:638][843]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-14.09.53:638][843]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-14.09.53:638][843]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2024.10.24-14.09.53:638][843]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2024.10.24-14.09.53:639][843]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2024.10.24-14.09.53:639][843]LogInit: FAudioDevice initialized with ID 69.
+[2024.10.24-14.09.53:639][843]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2024.10.24-14.09.53:639][843]LogAudio: Display: Audio Device (ID: 69) registered with world 'FirstPersonMap'.
+[2024.10.24-14.09.53:639][843]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 69
+[2024.10.24-14.09.53:642][843]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-14.09.53:643][843]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-15.09.53
+[2024.10.24-14.09.53:643][843]LogWorld: Bringing up level for play took: 0.000865
+[2024.10.24-14.09.53:645][843]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2024.10.24-14.09.53:649][843]PIE: Server logged in
+[2024.10.24-14.09.53:649][843]PIE: Play in editor total start time 0.108 seconds.
+[2024.10.24-14.09.54:236][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.09.54:236][900]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.09.54:237][900]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-14.09.54:237][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.09.54:237][900]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-14.09.54:241][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-14.09.54:243][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.09.54:256][900]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-14.09.54:257][900]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 69
+[2024.10.24-14.09.54:257][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2024.10.24-14.09.54:259][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2024.10.24-14.09.54:262][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.09.54:263][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-14.09.54:320][901]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2024.10.24-14.10.44:603][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.10.44:695][609]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.10.44:696][609]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter1445A98B45F3675E0D54EDA93B266E79.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.10.44:706][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 21.0 sec)
+[2024.10.24-14.10.44:713][609]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.10.44:713][609]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.10.45:135][656]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-14.10.45:185][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-14.10.46:783][778]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-14.10.46:786][778]LogFileManager: Warning: DeleteFile was unable to delete 'D:/ElementalClickerGame/ElementalClickerGame/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini', retrying in .5s...
+[2024.10.24-14.10.47:289][778]LogFileManager: Warning: DeleteFile recovered during retry!
+[2024.10.24-14.10.47:329][778]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-14.10.47:329][778]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-14.10.47:330][778]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 91 ms)
+[2024.10.24-14.10.47:330][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-14.10.47:330][778]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 16:10:47)
+[2024.10.24-14.10.47:366][778]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.10.47:370][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004073s)
+[2024.10.24-14.10.47:370][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004147s)
+[2024.10.24-14.10.47:379][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.24-14.10.47:383][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.10.47:383][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.10.47:383][778]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-14.10.47:386][778]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-14.10.47:386][778]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-14.10.47:386][778]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-14.10.47:386][778]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-14.10.47:387][778]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-14.10.47:387][778]LogWorldPartition: Display: WorldPartition initialize took 627 us (total: 145 ms)
+[2024.10.24-14.10.47:387][778]LogPlayLevel: PIE: World Init took: (0.003333s)
+[2024.10.24-14.10.47:387][778]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2024.10.24-14.10.47:387][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-14.10.47:387][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-14.10.47:387][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-14.10.47:387][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-14.10.47:387][778]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-14.10.47:387][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-14.10.47:387][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-14.10.47:387][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-14.10.47:387][778]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-14.10.47:387][778]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-14.10.47:387][778]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-14.10.47:389][778]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-14.10.47:415][778]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-14.10.47:416][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-14.10.47:416][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-14.10.47:416][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-14.10.47:417][778]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2024.10.24-14.10.47:417][778]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2024.10.24-14.10.47:418][778]LogInit: FAudioDevice initialized with ID 70.
+[2024.10.24-14.10.47:418][778]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2024.10.24-14.10.47:418][778]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2024.10.24-14.10.47:418][778]LogAudio: Display: Audio Device (ID: 70) registered with world 'FirstPersonMap'.
+[2024.10.24-14.10.47:418][778]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 70
+[2024.10.24-14.10.47:421][778]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-14.10.47:421][778]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-15.10.47
+[2024.10.24-14.10.47:422][778]LogWorld: Bringing up level for play took: 0.000880
+[2024.10.24-14.10.47:423][778]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2024.10.24-14.10.47:426][778]PIE: Server logged in
+[2024.10.24-14.10.47:427][778]PIE: Play in editor total start time 0.098 seconds.
+[2024.10.24-14.10.53:436][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.10.53:436][478]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.10.53:436][478]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-14.10.53:436][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.10.53:437][478]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-14.10.53:440][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-14.10.53:442][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.10.53:457][478]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-14.10.53:457][478]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 70
+[2024.10.24-14.10.53:458][478]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2024.10.24-14.10.53:459][478]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2024.10.24-14.10.53:462][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.10.53:464][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.24-14.10.53:520][479]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: ================================================
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Total job queries 3,719, among them cache hits 20 (0.54%)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Tracking 3,692 distinct input hashes that result in 2,657 distinct outputs (71.97%)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: RAM used: 68.10 MiB of 3.20 GiB budget. Usage: 2.08%
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Shaders Compiled: 3,692
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Jobs assigned 3,695, completed 3,692 (99.92%)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Average time worker was idle: 66.93 s
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Time job spent in pending queue: average 29.70 s, longest 63.18 s
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Job execution time: average 2.07 s, max 9.31 s
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Job life time (pending + execution): average 31.80 s, max 65.87
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Shader code size: average 38.19 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 74.92 s
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Jobs were issued in 479 batches (only local compilation was used), average 7.71 jobs/batch
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Average processing rate: 49.28 jobs/sec
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Total thread time: 746.799 s
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Total thread preprocess time: 111.482 s
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Percentage time preprocessing: 14.93%
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Effective parallelization: 9.97 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 2.34 sec, max 4.30 sec, min 0.71 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 2.31 sec, max 2.81 sec, min 1.67 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 1.39 sec, max 1.39 sec, min 1.39 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                                        FCloudRenderViewPS000 (compiled    1 times, average 1.32 sec, max 1.32 sec, min 1.32 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                                        FCloudRenderViewPS001 (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.74% of total time (compiled  134 times, average 0.65 sec, max 0.90 sec, min 0.52 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 6.08% of total time (compiled   96 times, average 0.47 sec, max 0.77 sec, min 0.31 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.49% of total time (compiled  128 times, average 0.26 sec, max 0.42 sec, min 0.16 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.48% of total time (compiled   96 times, average 0.35 sec, max 0.58 sec, min 0.10 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.03% of total time (compiled  128 times, average 0.23 sec, max 0.48 sec, min 0.07 sec)
+[2024.10.24-14.10.54:184][537]LogShaderCompilers: Display: ================================================
+[2024.10.24-14.10.57:452][898]Cmd: TRANSACTION UNDO
+[2024.10.24-14.10.57:452][898]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.24-14.10.57:810][902]Cmd: TRANSACTION UNDO
+[2024.10.24-14.10.57:810][902]LogEditorTransaction: Undo Move Node
+[2024.10.24-14.10.58:192][911]Cmd: TRANSACTION UNDO
+[2024.10.24-14.10.58:192][911]LogEditorTransaction: Undo Create Pin Link
+[2024.10.24-14.10.58:728][947]Cmd: TRANSACTION UNDO
+[2024.10.24-14.10.58:728][947]LogEditorTransaction: Undo Paste clipboard contents
+[2024.10.24-14.10.59:240][981]Cmd: TRANSACTION UNDO
+[2024.10.24-14.10.59:240][981]LogEditorTransaction: Undo Change Bool Pin Value
+[2024.10.24-14.10.59:890][ 32]Cmd: TRANSACTION UNDO
+[2024.10.24-14.10.59:890][ 32]LogEditorTransaction: Undo Add Node
+[2024.10.24-14.11.00:783][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.11.00:882][111]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.11.00:883][111]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter7D23202444FFD8AA63734CB256F19E17.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.11.00:891][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 21.1 sec)
+[2024.10.24-14.11.00:895][111]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.11.00:895][111]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.11.13:070][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.11.13:177][507]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.11.13:177][507]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterD023E83841F4B50B4F04609AE7B3F5AB.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.11.13:184][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 21.2 sec)
+[2024.10.24-14.11.13:188][507]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.11.13:188][507]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.11.25:728][687]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18446733695741400535
+[2024.10.24-14.11.25:728][687]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.10.24-14.11.35:770][825]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.11.35:880][825]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.11.35:881][825]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter464C6F3342A7B9679056A68466FE14C3.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.11.35:889][825]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 21.3 sec)
+[2024.10.24-14.11.35:893][825]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.11.35:893][825]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.11.36:521][897]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-14.11.36:580][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-14.11.44:553][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.11.44:662][682]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.11.44:663][682]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter4FA1C9794AE0B0EA0334EFB7CEC58AA7.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.11.44:670][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 21.4 sec)
+[2024.10.24-14.11.44:675][682]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.11.44:675][682]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.11.45:498][771]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-14.11.45:549][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.24-14.11.46:965][861]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-14.11.46:973][861]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-14.11.46:973][861]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-14.11.46:974][861]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 92 ms)
+[2024.10.24-14.11.46:974][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-14.11.46:974][861]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 16:11:46)
+[2024.10.24-14.11.47:016][861]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.11.47:019][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001919s)
+[2024.10.24-14.11.47:019][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001957s)
+[2024.10.24-14.11.47:032][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.24-14.11.47:037][861]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.11.47:038][861]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.11.47:038][861]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-14.11.47:039][861]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-14.11.47:039][861]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-14.11.47:039][861]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-14.11.47:039][861]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-14.11.47:039][861]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-14.11.47:039][861]LogWorldPartition: Display: WorldPartition initialize took 668 us (total: 145 ms)
+[2024.10.24-14.11.47:039][861]LogPlayLevel: PIE: World Init took: (0.001832s)
+[2024.10.24-14.11.47:039][861]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2024.10.24-14.11.47:039][861]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-14.11.47:039][861]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-14.11.47:039][861]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-14.11.47:039][861]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-14.11.47:039][861]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-14.11.47:039][861]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-14.11.47:039][861]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-14.11.47:039][861]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-14.11.47:040][861]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-14.11.47:040][861]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-14.11.47:040][861]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-14.11.47:041][861]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-14.11.47:069][861]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-14.11.47:069][861]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-14.11.47:069][861]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-14.11.47:069][861]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-14.11.47:071][861]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2024.10.24-14.11.47:071][861]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=71
+[2024.10.24-14.11.47:072][861]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2024.10.24-14.11.47:072][861]LogInit: FAudioDevice initialized with ID 71.
+[2024.10.24-14.11.47:072][861]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2024.10.24-14.11.47:072][861]LogAudio: Display: Audio Device (ID: 71) registered with world 'FirstPersonMap'.
+[2024.10.24-14.11.47:072][861]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 71
+[2024.10.24-14.11.47:074][861]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-14.11.47:076][861]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-15.11.47
+[2024.10.24-14.11.47:076][861]LogWorld: Bringing up level for play took: 0.000757
+[2024.10.24-14.11.47:077][861]LogOnline: OSS: Created online subsystem instance for: :Context_89
+[2024.10.24-14.11.47:081][861]PIE: Server logged in
+[2024.10.24-14.11.47:081][861]PIE: Play in editor total start time 0.108 seconds.
+[2024.10.24-14.11.50:016][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.11.50:017][197]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.11.50:017][197]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-14.11.50:017][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.11.50:017][197]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-14.11.50:021][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-14.11.50:024][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.11.50:039][197]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-14.11.50:039][197]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 71
+[2024.10.24-14.11.50:039][197]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2024.10.24-14.11.50:041][197]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2024.10.24-14.11.50:044][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.11.50:046][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.24-14.11.50:102][198]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2024.10.24-14.11.57:048][980]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.11.57:095][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.11.57:119][980]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.11.57:119][980]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element7E103D4C412E96EEEBD5AFB47F064A72.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.11.57:129][980]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 21.5 sec)
+[2024.10.24-14.11.57:133][980]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.11.57:133][980]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.11.57:646][ 40]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-14.11.57:677][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.24-14.11.58:818][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.11.58:863][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.11.58:886][160]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.11.58:886][160]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element3D8AF49242C267AC0A8D07AACC65D10E.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.11.58:894][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 21.6 sec)
+[2024.10.24-14.11.58:897][160]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.11.58:897][160]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.12.01:953][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.12.02:018][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.12.02:041][519]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.12.02:042][519]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementF64CF4A84DD4A60FF8199E94A6A007E5.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.12.02:051][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 21.7 sec)
+[2024.10.24-14.12.02:054][519]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.12.02:054][519]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.12.14:907][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.12.14:969][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.12.14:992][ 39]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.12.14:993][ 39]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementDDBABBE447B05579D93F84BFF07DCC74.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.12.15:001][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 21.8 sec)
+[2024.10.24-14.12.15:004][ 39]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.12.15:004][ 39]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.12.27:552][516]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AC_HealthSystem.AC_HealthSystem
+[2024.10.24-14.12.27:552][516]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.12.27:552][516]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.12.39:825][954]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.12.39:869][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_HealthSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset" SILENT=true
+[2024.10.24-14.12.39:871][954]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_HealthSystem
+[2024.10.24-14.12.39:872][954]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_HealthSystem24D8163E4345E270B1DD41B203580BAC.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset'
+[2024.10.24-14.12.39:881][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 21.8 sec)
+[2024.10.24-14.12.39:885][954]AssetCheck: New page: Asset Save: AC_HealthSystem
+[2024.10.24-14.12.39:885][954]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_HealthSystem.AC_HealthSystem
+[2024.10.24-14.12.41:531][141]BlueprintLog: New page: Compile AC_HealthSystem
+[2024.10.24-14.12.41:622][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.24-14.12.47:348][473]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.24-14.12.47:359][473]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.24-14.12.47:369][473]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.24-14.12.47:384][474]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.24-14.12.51:045][824]LogContentBrowser: Attempting asset rename: NewBlueprint -> AC_DamageSystem
+[2024.10.24-14.12.51:049][824]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.24-14.12.51:446][855]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.12.51:482][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.12.51:484][855]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.12.51:484][855]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystemBEAA0CD844EF443218933AA1EA42BE9E.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.12.51:492][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 21.9 sec)
+[2024.10.24-14.12.51:493][855]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.12.51:493][855]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.12.52:259][926]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.12.52:259][926]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.12.52:259][926]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.13.02:058][ 47]BlueprintLog: New page: Compile AC_DamageSystem
+[2024.10.24-14.13.02:077][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.10.24-14.13.02:085][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.13.02:118][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.13.02:120][ 47]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.13.02:121][ 47]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem5A3164DE461BB67C5111D09542B4A0C4.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.13.02:130][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 21.9 sec)
+[2024.10.24-14.13.02:136][ 47]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.13.02:136][ 47]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.13.03:051][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.13.03:100][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.13.03:102][142]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.13.03:102][142]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem2EA79BD04C128078563FC2B38E2772E3.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.13.03:111][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 22.0 sec)
+[2024.10.24-14.13.03:114][142]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.13.03:114][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.13.05:183][383]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.13.05:237][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.13.05:239][383]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.13.05:239][383]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem48A998EE4470F753FAA5688148146643.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.13.05:247][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 22.0 sec)
+[2024.10.24-14.13.05:248][383]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.13.05:248][383]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.13.16:234][692]BlueprintLog: New page: Compile AC_DamageSystem
+[2024.10.24-14.13.16:247][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.24-14.13.16:254][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.13.16:326][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.13.16:328][692]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.13.16:329][692]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem1F3636AF48C0E07419D9B5BB7102B0C2.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.13.16:337][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 22.1 sec)
+[2024.10.24-14.13.16:342][692]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.13.16:343][692]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.13.17:006][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.13.17:051][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.13.17:053][760]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.13.17:054][760]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem3E7C43234A23ABB5DA9097B96014AB36.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.13.17:062][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 22.2 sec)
+[2024.10.24-14.13.17:067][760]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.13.17:067][760]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.13.17:751][842]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.13.17:804][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.13.17:805][842]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.13.17:806][842]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem199C73A740DFC95E4C14D497B63E7B47.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.13.17:814][842]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 22.3 sec)
+[2024.10.24-14.13.17:817][842]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.13.17:817][842]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.13.45:340][960]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.13.45:387][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.13.45:389][960]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.13.45:389][960]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem844B718B495FC61CEA75C89B270C3E18.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.13.45:397][960]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 22.3 sec)
+[2024.10.24-14.13.45:401][960]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.13.45:401][960]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.13.51:363][648]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.13.51:403][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.13.51:405][648]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.13.51:406][648]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem1B31554840A93E734CCC6A878BB4DEEB.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.13.51:414][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 22.4 sec)
+[2024.10.24-14.13.51:419][648]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.13.51:419][648]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.14.27:877][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.14.27:943][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.14.27:947][815]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.14.27:947][815]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystemC7AC85F44EF82168F05943924F71A5BF.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.14.27:955][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 22.4 sec)
+[2024.10.24-14.14.27:957][815]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.14.27:957][815]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.14.28:462][874]BlueprintLog: New page: Compile AC_DamageSystem
+[2024.10.24-14.14.28:477][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.24-14.14.29:100][936]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.14.29:159][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.14.29:162][936]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.14.29:163][936]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem6F147F8B485478A195B7B0A30E0B4120.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.14.29:170][936]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 22.5 sec)
+[2024.10.24-14.14.29:172][936]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.14.29:172][936]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.14.46:767][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.14.46:826][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.14.46:829][970]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.14.46:830][970]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem2C54651B4D161E12C9941E90AE578BE1.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.14.46:838][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 22.6 sec)
+[2024.10.24-14.14.46:842][970]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.14.46:842][970]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.14.47:512][ 50]BlueprintLog: New page: Compile AC_DamageSystem
+[2024.10.24-14.14.47:530][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.10.24-14.14.48:375][139]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.14.48:425][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.14.48:428][139]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.14.48:429][139]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem65678FA149D16B672D60B286832DD67D.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.14.48:436][139]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 22.6 sec)
+[2024.10.24-14.14.48:440][139]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.14.48:440][139]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.14.56:242][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.14.56:290][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.14.56:293][ 62]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.14.56:294][ 62]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystemBE754C9F4058045E4CEE5986EA54305E.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.14.56:303][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 22.7 sec)
+[2024.10.24-14.14.56:307][ 62]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.14.56:307][ 62]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.15.00:090][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.15.00:142][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.15.00:145][516]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.15.00:145][516]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem57B21D804948D0BB60DC22BA69A7CAE6.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.15.00:153][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 22.8 sec)
+[2024.10.24-14.15.00:155][516]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.15.00:155][516]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.15.35:274][401]LogWindows: LaunchFileInExternalEditor C:/Unreal Engine/UE_5.3/Engine/Source/Runtime/UMG/Public/Components/Widget.h 
+[2024.10.24-14.15.35:627][401]LogWindows: Launch application code for C:/Unreal Engine/UE_5.3/Engine/Source/Runtime/UMG/Public/Components/Widget.h : 42
+[2024.10.24-14.15.35:627][401]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2024.10.24-14.15.35:633][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:633][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:633][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:633][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:634][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:635][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:636][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:637][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:638][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:639][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:640][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:641][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:642][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:643][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:644][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:671][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:671][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:671][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:719][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:720][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:732][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:757][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:793][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:793][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:795][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:819][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:820][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:823][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:826][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:876][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:876][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:876][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:881][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:881][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:881][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:881][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:882][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:883][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:884][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:885][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:887][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:888][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:889][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:890][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:891][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:891][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:891][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:891][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:891][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:891][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:917][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:917][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:917][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:967][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:969][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.35:980][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:005][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:042][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:042][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:044][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:067][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:068][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:071][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:073][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:075][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:075][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:075][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:075][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:081][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:082][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:083][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:084][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:085][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:087][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:088][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:089][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:090][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:091][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:091][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:091][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:091][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:116][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:116][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:117][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:161][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:162][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:175][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:199][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:233][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:233][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:236][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:257][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:258][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:260][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.36:263][401]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.24-14.15.41:768][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.15.41:808][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_HealthSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset" SILENT=true
+[2024.10.24-14.15.41:810][728]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_HealthSystem
+[2024.10.24-14.15.41:810][728]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_HealthSystemF93B6AD44852781169DA8C82A4061957.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset'
+[2024.10.24-14.15.41:818][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 22.8 sec)
+[2024.10.24-14.15.41:821][728]AssetCheck: New page: Asset Save: AC_HealthSystem
+[2024.10.24-14.15.41:821][728]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_HealthSystem.AC_HealthSystem
+[2024.10.24-14.16.19:444][913]BlueprintLog: New page: Compile AC_HealthSystem
+[2024.10.24-14.16.19:476][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.24-14.16.20:415][991]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.16.20:479][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_HealthSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset" SILENT=true
+[2024.10.24-14.16.20:481][991]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_HealthSystem
+[2024.10.24-14.16.20:482][991]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_HealthSystem4D8D6C414E41737E7CB268BE27240D70.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset'
+[2024.10.24-14.16.20:489][991]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 22.9 sec)
+[2024.10.24-14.16.20:490][991]AssetCheck: New page: Asset Save: AC_HealthSystem
+[2024.10.24-14.16.20:490][991]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_HealthSystem.AC_HealthSystem
+[2024.10.24-14.16.23:687][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.16.23:748][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_HealthSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset" SILENT=true
+[2024.10.24-14.16.23:749][328]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_HealthSystem
+[2024.10.24-14.16.23:750][328]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_HealthSystemC1EB9C8749B5407250BBFE81009BE6F8.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset'
+[2024.10.24-14.16.23:756][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 23.0 sec)
+[2024.10.24-14.16.23:759][328]AssetCheck: New page: Asset Save: AC_HealthSystem
+[2024.10.24-14.16.23:759][328]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_HealthSystem.AC_HealthSystem
+[2024.10.24-14.16.25:717][563]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.16.25:787][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_HealthSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset" SILENT=true
+[2024.10.24-14.16.25:789][563]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_HealthSystem
+[2024.10.24-14.16.25:790][563]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_HealthSystemEA22811F4E8B71A2F3B574AF59004735.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset'
+[2024.10.24-14.16.25:797][563]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 23.0 sec)
+[2024.10.24-14.16.25:801][563]AssetCheck: New page: Asset Save: AC_HealthSystem
+[2024.10.24-14.16.25:801][563]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_HealthSystem.AC_HealthSystem
+[2024.10.24-14.16.33:320][447]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.16.33:362][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_HealthSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset" SILENT=true
+[2024.10.24-14.16.33:364][447]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_HealthSystem
+[2024.10.24-14.16.33:364][447]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_HealthSystemB0FF69CD430A1CCF0F99929FEE4CC559.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset'
+[2024.10.24-14.16.33:371][447]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 23.1 sec)
+[2024.10.24-14.16.33:374][447]AssetCheck: New page: Asset Save: AC_HealthSystem
+[2024.10.24-14.16.33:374][447]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_HealthSystem.AC_HealthSystem
+[2024.10.24-14.16.34:870][625]BlueprintLog: New page: Compile AC_HealthSystem
+[2024.10.24-14.16.34:898][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.24-14.16.35:468][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.16.35:533][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_HealthSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset" SILENT=true
+[2024.10.24-14.16.35:535][679]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_HealthSystem
+[2024.10.24-14.16.35:537][679]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_HealthSystem796344284FD16F1AF0D4089079775CE5.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_HealthSystem.uasset'
+[2024.10.24-14.16.35:543][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 23.2 sec)
+[2024.10.24-14.16.35:545][679]AssetCheck: New page: Asset Save: AC_HealthSystem
+[2024.10.24-14.16.35:545][679]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_HealthSystem.AC_HealthSystem
+[2024.10.24-14.16.49:445][334]LogWorld: UWorld::CleanupWorld for World_169, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-14.16.49:445][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.17.33:260][331]LogEditorTransaction: Undo Move Node
+[2024.10.24-14.17.33:837][338]LogEditorTransaction: Undo Move Nodes
+[2024.10.24-14.17.34:342][381]LogEditorTransaction: Undo Move Node
+[2024.10.24-14.17.34:801][420]LogEditorTransaction: Undo Move Node
+[2024.10.24-14.17.35:402][475]LogEditorTransaction: Undo Move Node
+[2024.10.24-14.17.35:868][514]LogEditorTransaction: Undo Create Pin Link
+[2024.10.24-14.17.36:349][555]LogEditorTransaction: Undo Move Node
+[2024.10.24-14.17.37:043][614]LogEditorTransaction: Undo Create Pin Link
+[2024.10.24-14.17.37:730][637]LogEditorTransaction: Undo Create Pin Link
+[2024.10.24-14.17.38:253][683]LogEditorTransaction: Undo Add Node
+[2024.10.24-14.17.54:534][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.17.54:585][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.17.54:608][442]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.17.54:610][442]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element7C580222428D1703594A278367FE9C2C.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.17.54:616][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 23.2 sec)
+[2024.10.24-14.17.54:620][442]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.17.54:620][442]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.17.55:308][524]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-14.17.55:342][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.10.24-14.17.55:910][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.17.55:970][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.17.55:994][575]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.17.55:994][575]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementDD1976C24265C22C2BB72092FF579488.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.17.56:002][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 23.3 sec)
+[2024.10.24-14.17.56:004][575]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.17.56:005][575]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.18.00:595][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.18.00:644][ 36]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SDockingTabStack [TabManager.cpp(1704)].
+[2024.10.24-14.18.00:706][ 36]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.18.00:708][ 36]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterE8EA12814ED20A61545100BDB640CFEF.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.18.00:715][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 23.5 sec)
+[2024.10.24-14.18.00:720][ 36]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.18.00:720][ 36]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.18.01:576][130]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-14.18.01:631][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-14.18.02:188][162]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.18.02:282][162]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.18.02:282][162]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterDCFEEACB4E2A4A338C7132A7EAB4A684.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.18.02:289][162]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 23.6 sec)
+[2024.10.24-14.18.02:290][162]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.18.02:290][162]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.18.18:070][941]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.18.18:120][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.18.18:144][941]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.18.18:145][941]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element108AA81C44CB8F7B4FAE1D809AD09A36.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.18.18:152][941]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 23.6 sec)
+[2024.10.24-14.18.18:155][941]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.18.18:155][941]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.18.18:751][ 10]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-14.18.18:753][ 10]LogBlueprint: Warning: [AssetLog] D:\ElementalClickerGame\ElementalClickerGame\Content\Blueprints\BP_Element.uasset: [Compiler] Cast To BP_FirstPersonCharacter  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.10.24-14.18.18:757][ 10]LogBlueprint: Error: [AssetLog] D:\ElementalClickerGame\ElementalClickerGame\Content\Blueprints\BP_Element.uasset: [Compiler] This blueprint (self) is not a BP_FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2024.10.24-14.18.18:757][ 10]LogBlueprint: Error: [AssetLog] D:\ElementalClickerGame\ElementalClickerGame\Content\Blueprints\BP_Element.uasset: [Compiler] Variable node  Get AC_DamageSystem  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2024.10.24-14.18.18:785][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.24-14.19.00:547][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.19.00:588][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.19.00:611][834]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.19.00:613][834]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element9D2AB6DC4D06519EED9598A24FF9A540.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.19.00:620][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 23.7 sec)
+[2024.10.24-14.19.00:622][834]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.19.00:622][834]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.19.01:063][887]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-14.19.01:095][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.24-14.19.01:670][930]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.19.01:704][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.19.01:728][930]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.19.01:728][930]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementC4145B1D4E65CA1E11091DACBA30E156.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.19.01:736][930]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 23.8 sec)
+[2024.10.24-14.19.01:740][930]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.19.01:740][930]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.19.02:946][ 31]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-14.19.02:953][ 31]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-14.19.02:953][ 31]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-14.19.02:953][ 31]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 94 ms)
+[2024.10.24-14.19.02:954][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-14.19.02:954][ 31]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 16:19:02)
+[2024.10.24-14.19.02:979][ 31]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.19.02:981][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001963s)
+[2024.10.24-14.19.02:981][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001999s)
+[2024.10.24-14.19.02:993][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-14.19.02:996][ 31]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.19.02:996][ 31]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.19.02:996][ 31]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-14.19.02:998][ 31]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-14.19.02:998][ 31]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-14.19.02:998][ 31]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-14.19.02:998][ 31]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-14.19.02:998][ 31]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-14.19.02:998][ 31]LogWorldPartition: Display: WorldPartition initialize took 622 us (total: 146 ms)
+[2024.10.24-14.19.02:998][ 31]LogPlayLevel: PIE: World Init took: (0.002052s)
+[2024.10.24-14.19.02:998][ 31]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2024.10.24-14.19.02:999][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-14.19.02:999][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-14.19.02:999][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-14.19.02:999][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-14.19.02:999][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-14.19.02:999][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-14.19.02:999][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-14.19.02:999][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-14.19.02:999][ 31]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-14.19.02:999][ 31]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-14.19.02:999][ 31]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-14.19.03:000][ 31]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-14.19.03:028][ 31]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-14.19.03:029][ 31]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-14.19.03:029][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-14.19.03:029][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-14.19.03:030][ 31]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=72
+[2024.10.24-14.19.03:030][ 31]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=72
+[2024.10.24-14.19.03:031][ 31]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=72
+[2024.10.24-14.19.03:031][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=72
+[2024.10.24-14.19.03:031][ 31]LogInit: FAudioDevice initialized with ID 72.
+[2024.10.24-14.19.03:031][ 31]LogAudio: Display: Audio Device (ID: 72) registered with world 'FirstPersonMap'.
+[2024.10.24-14.19.03:031][ 31]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 72
+[2024.10.24-14.19.03:034][ 31]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-14.19.03:034][ 31]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-15.19.03
+[2024.10.24-14.19.03:035][ 31]LogWorld: Bringing up level for play took: 0.000896
+[2024.10.24-14.19.03:036][ 31]LogOnline: OSS: Created online subsystem instance for: :Context_92
+[2024.10.24-14.19.03:040][ 31]PIE: Server logged in
+[2024.10.24-14.19.03:040][ 31]PIE: Play in editor total start time 0.088 seconds.
+[2024.10.24-14.19.07:089][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.19.07:089][503]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.19.07:090][503]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-14.19.07:090][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.19.07:090][503]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-14.19.07:093][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-14.19.07:095][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.19.07:108][503]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-14.19.07:109][503]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 72
+[2024.10.24-14.19.07:109][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72
+[2024.10.24-14.19.07:110][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72
+[2024.10.24-14.19.07:113][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.19.07:115][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-14.19.07:172][504]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2024.10.24-14.19.16:434][529]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.19.16:491][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_DamageSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset" SILENT=true
+[2024.10.24-14.19.16:495][529]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_DamageSystem
+[2024.10.24-14.19.16:496][529]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_DamageSystem5BF3C3B64C1C6CB0B914D29FF2EAD44D.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_DamageSystem.uasset'
+[2024.10.24-14.19.16:503][529]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 23.8 sec)
+[2024.10.24-14.19.16:505][529]AssetCheck: New page: Asset Save: AC_DamageSystem
+[2024.10.24-14.19.16:505][529]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_DamageSystem.AC_DamageSystem
+[2024.10.24-14.19.17:606][660]BlueprintLog: New page: Compile AC_DamageSystem
+[2024.10.24-14.19.17:685][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.10.24-14.19.18:932][763]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-14.19.18:938][763]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-14.19.18:939][763]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-14.19.18:940][763]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 95 ms)
+[2024.10.24-14.19.18:940][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-14.19.18:940][763]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 16:19:18)
+[2024.10.24-14.19.18:940][763]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.19.18:942][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001746s)
+[2024.10.24-14.19.18:942][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001770s)
+[2024.10.24-14.19.18:949][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-14.19.18:954][763]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.19.18:954][763]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.19.18:954][763]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-14.19.18:955][763]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-14.19.18:955][763]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-14.19.18:955][763]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-14.19.18:955][763]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-14.19.18:955][763]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-14.19.18:956][763]LogWorldPartition: Display: WorldPartition initialize took 549 us (total: 146 ms)
+[2024.10.24-14.19.18:956][763]LogPlayLevel: PIE: World Init took: (0.001878s)
+[2024.10.24-14.19.18:956][763]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2024.10.24-14.19.18:956][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-14.19.18:956][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-14.19.18:956][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-14.19.18:956][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-14.19.18:956][763]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-14.19.18:956][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-14.19.18:956][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-14.19.18:956][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-14.19.18:956][763]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-14.19.18:956][763]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-14.19.18:956][763]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-14.19.18:958][763]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-14.19.18:984][763]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-14.19.18:984][763]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-14.19.18:984][763]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-14.19.18:984][763]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-14.19.18:985][763]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=73
+[2024.10.24-14.19.18:985][763]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=73
+[2024.10.24-14.19.18:986][763]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2024.10.24-14.19.18:986][763]LogInit: FAudioDevice initialized with ID 73.
+[2024.10.24-14.19.18:986][763]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=73
+[2024.10.24-14.19.18:986][763]LogAudio: Display: Audio Device (ID: 73) registered with world 'FirstPersonMap'.
+[2024.10.24-14.19.18:986][763]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 73
+[2024.10.24-14.19.18:989][763]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-14.19.18:990][763]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-15.19.18
+[2024.10.24-14.19.18:990][763]LogWorld: Bringing up level for play took: 0.000848
+[2024.10.24-14.19.18:991][763]LogOnline: OSS: Created online subsystem instance for: :Context_93
+[2024.10.24-14.19.18:995][763]PIE: Server logged in
+[2024.10.24-14.19.18:996][763]PIE: Play in editor total start time 0.057 seconds.
+[2024.10.24-14.19.26:768][535]LogViewport: Scene viewport resized to 1044x642, mode Windowed.
+[2024.10.24-14.19.31:980][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.19.31:980][112]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.19.31:980][112]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-14.19.31:980][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.19.31:980][112]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-14.19.31:982][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-14.19.31:984][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.19.31:997][112]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-14.19.31:997][112]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 73
+[2024.10.24-14.19.31:998][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73
+[2024.10.24-14.19.31:999][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73
+[2024.10.24-14.19.32:002][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.19.32:004][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.24-14.19.32:078][114]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2024.10.24-14.19.35:123][444]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.19.35:185][444]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.19.35:185][444]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter9FF473C9451DAC58390D039D72B477F0.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.19.35:194][444]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 23.9 sec)
+[2024.10.24-14.19.35:197][444]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.19.35:197][444]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.20.38:093][123]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.20.38:179][123]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.20.38:179][123]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterBEF7807D4875A70F014657ABDC2FF144.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.20.38:187][123]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 24.0 sec)
+[2024.10.24-14.20.38:191][123]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.20.38:191][123]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.20.39:169][234]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-14.20.39:216][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.24-14.20.39:759][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.20.39:859][269]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.20.39:859][269]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter064D3F4743E83720788F76843F006D8F.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.20.39:867][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 24.1 sec)
+[2024.10.24-14.20.39:872][269]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.20.39:872][269]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.20.40:830][355]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-14.20.40:837][355]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-14.20.40:837][355]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-14.20.40:839][355]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 96 ms)
+[2024.10.24-14.20.40:839][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-14.20.40:839][355]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 16:20:40)
+[2024.10.24-14.20.40:839][355]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.20.40:840][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001723s)
+[2024.10.24-14.20.40:840][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001746s)
+[2024.10.24-14.20.40:851][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-14.20.40:856][355]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.20.40:856][355]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.20.40:857][355]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-14.20.40:857][355]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-14.20.40:857][355]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-14.20.40:857][355]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-14.20.40:857][355]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-14.20.40:858][355]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-14.20.40:858][355]LogWorldPartition: Display: WorldPartition initialize took 560 us (total: 147 ms)
+[2024.10.24-14.20.40:858][355]LogPlayLevel: PIE: World Init took: (0.001742s)
+[2024.10.24-14.20.40:858][355]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2024.10.24-14.20.40:858][355]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-14.20.40:858][355]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-14.20.40:858][355]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-14.20.40:858][355]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-14.20.40:858][355]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-14.20.40:858][355]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-14.20.40:858][355]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-14.20.40:858][355]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-14.20.40:858][355]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-14.20.40:858][355]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-14.20.40:858][355]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-14.20.40:860][355]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-14.20.40:889][355]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-14.20.40:889][355]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-14.20.40:889][355]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-14.20.40:889][355]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-14.20.40:890][355]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=74
+[2024.10.24-14.20.40:890][355]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=74
+[2024.10.24-14.20.40:891][355]LogInit: FAudioDevice initialized with ID 74.
+[2024.10.24-14.20.40:891][355]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=74
+[2024.10.24-14.20.40:891][355]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=74
+[2024.10.24-14.20.40:891][355]LogAudio: Display: Audio Device (ID: 74) registered with world 'FirstPersonMap'.
+[2024.10.24-14.20.40:891][355]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 74
+[2024.10.24-14.20.40:894][355]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-14.20.40:895][355]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-15.20.40
+[2024.10.24-14.20.40:895][355]LogWorld: Bringing up level for play took: 0.000861
+[2024.10.24-14.20.40:896][355]LogOnline: OSS: Created online subsystem instance for: :Context_94
+[2024.10.24-14.20.40:900][355]PIE: Server logged in
+[2024.10.24-14.20.40:901][355]PIE: Play in editor total start time 0.064 seconds.
+[2024.10.24-14.20.54:141][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.20.54:141][916]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.20.54:141][916]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-14.20.54:142][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.20.54:142][916]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-14.20.54:146][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-14.20.54:148][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.20.54:162][916]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-14.20.54:163][916]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 74
+[2024.10.24-14.20.54:163][916]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74
+[2024.10.24-14.20.54:165][916]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74
+[2024.10.24-14.20.54:167][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.20.54:170][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.24-14.20.54:228][917]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2024.10.24-14.20.58:079][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.20.58:161][357]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.20.58:161][357]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter4AD9DC3F46FCA80333B2C0B2C07D1AAD.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.20.58:171][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 24.2 sec)
+[2024.10.24-14.20.58:174][357]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.20.58:174][357]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.20.58:577][404]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-14.20.58:631][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.24-14.20.59:505][476]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.20.59:607][476]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.20.59:609][476]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterCDC7ED824B0FA85765B69BA2BB584189.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.20.59:617][476]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 24.3 sec)
+[2024.10.24-14.20.59:622][476]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.20.59:622][476]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.21.00:204][545]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.21.00:257][545]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.21.00:258][545]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterE762A3F6456FAE9ED5AAA1BC72A2B3BB.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.21.00:268][545]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 24.4 sec)
+[2024.10.24-14.21.00:272][545]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.21.00:272][545]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
