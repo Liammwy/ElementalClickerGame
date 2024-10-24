@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/Inventory/AC_Inventory.uasset",
+				"D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset",
+				"D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset",
+				"D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionNotFound.uasset",
+				"D:/ElementalClickerGame/ElementalClickerGame/Content/Data/DT_Elements.uasset",
+				"D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_ElementCollection.uasset",
 				"C:/Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/Models/Material_001.uasset",
 				"C:/Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/Models/elementPodium.uasset",
