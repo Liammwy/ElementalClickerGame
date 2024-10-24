@@ -6745,3 +6745,1519 @@ Script call stack:
 [2024.10.24-13.36.27:315][986]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 13.9 sec)
 [2024.10.24-13.36.27:317][986]AssetCheck: New page: Asset Save: BP_Element
 [2024.10.24-13.36.27:317][986]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.37.05:397][437]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.37.05:403][437]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.37.05:403][437]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.37.05:404][437]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 75 ms)
+[2024.10.24-13.37.05:404][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.37.05:404][437]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:37:05)
+[2024.10.24-13.37.05:427][437]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.37.05:430][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002052s)
+[2024.10.24-13.37.05:430][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002093s)
+[2024.10.24-13.37.05:443][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.10.24-13.37.05:447][437]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.37.05:447][437]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.37.05:447][437]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.37.05:448][437]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.37.05:448][437]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.37.05:448][437]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.37.05:448][437]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.37.05:449][437]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.37.05:449][437]LogWorldPartition: Display: WorldPartition initialize took 679 us (total: 137 ms)
+[2024.10.24-13.37.05:449][437]LogPlayLevel: PIE: World Init took: (0.002199s)
+[2024.10.24-13.37.05:449][437]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2024.10.24-13.37.05:449][437]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.37.05:449][437]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.37.05:449][437]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.37.05:449][437]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.37.05:449][437]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.37.05:449][437]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.37.05:449][437]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.37.05:449][437]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.37.05:449][437]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.37.05:449][437]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.37.05:449][437]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.37.05:451][437]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.37.05:479][437]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.37.05:479][437]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.37.05:480][437]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.37.05:480][437]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.37.05:481][437]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2024.10.24-13.37.05:481][437]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2024.10.24-13.37.05:482][437]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2024.10.24-13.37.05:482][437]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2024.10.24-13.37.05:482][437]LogInit: FAudioDevice initialized with ID 57.
+[2024.10.24-13.37.05:482][437]LogAudio: Display: Audio Device (ID: 57) registered with world 'FirstPersonMap'.
+[2024.10.24-13.37.05:482][437]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2024.10.24-13.37.05:484][437]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.37.05:485][437]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.37.05
+[2024.10.24-13.37.05:485][437]LogWorld: Bringing up level for play took: 0.000922
+[2024.10.24-13.37.05:486][437]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2024.10.24-13.37.05:490][437]PIE: Server logged in
+[2024.10.24-13.37.05:490][437]PIE: Play in editor total start time 0.087 seconds.
+[2024.10.24-13.37.45:999][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.37.45:999][175]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.37.46:000][175]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.37.46:000][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.37.46:000][175]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.37.46:005][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.37.46:008][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.37.46:019][175]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.37.46:020][175]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2024.10.24-13.37.46:020][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2024.10.24-13.37.46:021][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2024.10.24-13.37.46:024][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.37.46:027][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.24-13.37.46:083][176]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2024.10.24-13.39.44:357][850]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.39.44:396][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.39.44:406][850]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.39.44:407][850]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook9097CDA84FAAC1D1999DD9861D3AF7B1.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.39.44:415][850]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 13.9 sec)
+[2024.10.24-13.39.44:417][850]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.39.44:417][850]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.39.45:520][975]BlueprintLog: New page: Compile WBP_CollectionBook
+[2024.10.24-13.39.45:542][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.24-13.39.50:072][417]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.39.50:078][417]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.39.50:078][417]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.39.50:079][417]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 76 ms)
+[2024.10.24-13.39.50:079][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.39.50:079][417]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:39:50)
+[2024.10.24-13.39.50:079][417]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.39.50:081][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001781s)
+[2024.10.24-13.39.50:081][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001806s)
+[2024.10.24-13.39.50:091][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.10.24-13.39.50:095][417]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.39.50:095][417]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.39.50:095][417]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.39.50:095][417]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.39.50:095][417]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.39.50:095][417]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.39.50:095][417]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.39.50:096][417]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.39.50:096][417]LogWorldPartition: Display: WorldPartition initialize took 546 us (total: 137 ms)
+[2024.10.24-13.39.50:096][417]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2024.10.24-13.39.50:096][417]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2024.10.24-13.39.50:096][417]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.39.50:096][417]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.39.50:096][417]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.39.50:096][417]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.39.50:096][417]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.39.50:096][417]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.39.50:096][417]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.39.50:096][417]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.39.50:096][417]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.39.50:096][417]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.39.50:096][417]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.39.50:098][417]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.39.50:126][417]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.39.50:126][417]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.39.50:126][417]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.39.50:126][417]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.39.50:127][417]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2024.10.24-13.39.50:127][417]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2024.10.24-13.39.50:128][417]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2024.10.24-13.39.50:128][417]LogInit: FAudioDevice initialized with ID 58.
+[2024.10.24-13.39.50:128][417]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2024.10.24-13.39.50:128][417]LogAudio: Display: Audio Device (ID: 58) registered with world 'FirstPersonMap'.
+[2024.10.24-13.39.50:128][417]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2024.10.24-13.39.50:130][417]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.39.50:131][417]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.39.50
+[2024.10.24-13.39.50:131][417]LogWorld: Bringing up level for play took: 0.000871
+[2024.10.24-13.39.50:133][417]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2024.10.24-13.39.50:136][417]PIE: Server logged in
+[2024.10.24-13.39.50:137][417]PIE: Play in editor total start time 0.059 seconds.
+[2024.10.24-13.40.05:898][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.40.05:898][274]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.40.05:899][274]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.40.05:899][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.40.05:899][274]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.40.05:901][274]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.40.05:903][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.40.05:917][274]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.40.05:918][274]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2024.10.24-13.40.05:918][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2024.10.24-13.40.05:919][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2024.10.24-13.40.05:922][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.40.05:924][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-13.40.05:979][275]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2024.10.24-13.40.14:790][738]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.40.14:797][738]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.40.14:797][738]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.40.14:798][738]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 77 ms)
+[2024.10.24-13.40.14:798][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.40.14:798][738]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:40:14)
+[2024.10.24-13.40.14:828][738]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.40.14:831][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002569s)
+[2024.10.24-13.40.14:831][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002619s)
+[2024.10.24-13.40.14:840][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-13.40.14:843][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.40.14:843][738]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.40.14:844][738]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.40.14:844][738]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.40.14:844][738]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.40.14:844][738]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.40.14:844][738]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.40.14:845][738]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.40.14:845][738]LogWorldPartition: Display: WorldPartition initialize took 544 us (total: 138 ms)
+[2024.10.24-13.40.14:845][738]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2024.10.24-13.40.14:845][738]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2024.10.24-13.40.14:845][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.40.14:845][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.40.14:845][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.40.14:845][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.40.14:845][738]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.40.14:845][738]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.40.14:845][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.40.14:845][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.40.14:845][738]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.40.14:845][738]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.40.14:845][738]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.40.14:847][738]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.40.14:875][738]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.40.14:875][738]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.40.14:875][738]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.40.14:875][738]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.40.14:876][738]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2024.10.24-13.40.14:876][738]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2024.10.24-13.40.14:877][738]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2024.10.24-13.40.14:878][738]LogInit: FAudioDevice initialized with ID 59.
+[2024.10.24-13.40.14:878][738]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2024.10.24-13.40.14:878][738]LogAudio: Display: Audio Device (ID: 59) registered with world 'FirstPersonMap'.
+[2024.10.24-13.40.14:878][738]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 59
+[2024.10.24-13.40.14:880][738]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.40.14:881][738]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.40.14
+[2024.10.24-13.40.14:881][738]LogWorld: Bringing up level for play took: 0.000854
+[2024.10.24-13.40.14:882][738]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2024.10.24-13.40.14:885][738]PIE: Server logged in
+[2024.10.24-13.40.14:886][738]PIE: Play in editor total start time 0.089 seconds.
+[2024.10.24-13.40.28:658][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.40.28:658][320]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.40.28:659][320]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.40.28:659][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.40.28:659][320]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.40.28:662][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.40.28:664][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.40.28:678][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.40.28:679][320]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 59
+[2024.10.24-13.40.28:679][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2024.10.24-13.40.28:680][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2024.10.24-13.40.28:685][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.10.24-13.40.28:739][321]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2024.10.24-13.40.35:958][147]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.40.36:015][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/DT_Elements" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Data/DT_Elements.uasset" SILENT=true
+[2024.10.24-13.40.36:017][147]LogSavePackage: Moving output files for package: /Game/Data/DT_Elements
+[2024.10.24-13.40.36:017][147]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/DT_Elements8BF778414FCA3CA6CBB5C6A301D3CE7B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Data/DT_Elements.uasset'
+[2024.10.24-13.40.36:025][147]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 14.0 sec)
+[2024.10.24-13.40.36:027][147]AssetCheck: New page: Asset Save: DT_Elements
+[2024.10.24-13.40.36:027][147]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Data/DT_Elements.DT_Elements
+[2024.10.24-13.40.36:969][260]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.40.36:996][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/DT_Elements" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Data/DT_Elements.uasset" SILENT=true
+[2024.10.24-13.40.37:000][260]LogSavePackage: Moving output files for package: /Game/Data/DT_Elements
+[2024.10.24-13.40.37:002][260]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/DT_Elements6C0883C440053F1C5C67BAB759A1CD8E.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Data/DT_Elements.uasset'
+[2024.10.24-13.40.37:009][260]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 14.0 sec)
+[2024.10.24-13.40.37:013][260]AssetCheck: New page: Asset Save: DT_Elements
+[2024.10.24-13.40.37:013][260]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Data/DT_Elements.DT_Elements
+[2024.10.24-13.40.58:994][842]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.40.59:054][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.40.59:065][842]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.40.59:066][842]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBookC3813BBC4CB27CC5A2D143945399E489.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.40.59:071][842]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 14.1 sec)
+[2024.10.24-13.40.59:076][842]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.40.59:076][842]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.41.24:735][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.41.24:769][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.41.24:779][867]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.41.24:779][867]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBookCF8D0F5B456EF8EE50BF25B7428B86AD.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.41.24:785][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 14.2 sec)
+[2024.10.24-13.41.24:788][867]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.41.24:788][867]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.41.26:502][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.41.26:552][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.41.26:561][ 67]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.41.26:561][ 67]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook43A2945B49A97917E9FA029F2DD3D5B9.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.41.26:568][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 14.2 sec)
+[2024.10.24-13.41.26:571][ 67]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.41.26:571][ 67]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.41.56:852][674]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.41.56:907][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.41.56:916][674]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.41.56:917][674]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBookEE1A8CE140064651804D2E886D29245E.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.41.56:924][674]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 14.3 sec)
+[2024.10.24-13.41.56:927][674]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.41.56:927][674]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.42.00:480][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.42.00:520][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.42.00:529][ 97]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.42.00:529][ 97]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBookC881FBC742A3A13AF117E4A4BCE3E6CE.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.42.00:536][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 14.3 sec)
+[2024.10.24-13.42.00:539][ 97]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.42.00:539][ 97]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.42.42:826][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.42.42:893][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.42.42:903][ 99]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.42.42:904][ 99]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook18E8E2454939771E2F93F5879467A9BD.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.42.42:911][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 14.4 sec)
+[2024.10.24-13.42.42:915][ 99]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.42.42:915][ 99]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.42.43:672][183]BlueprintLog: New page: Compile WBP_CollectionBook
+[2024.10.24-13.42.43:700][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-13.42.44:290][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.42.44:342][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.42.44:356][235]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.42.44:356][235]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBookBF57B0D547F77DCC12EFB4B8FD5D84E9.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.42.44:366][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 14.5 sec)
+[2024.10.24-13.42.44:370][235]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.42.44:370][235]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.42.56:614][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.42.56:676][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.42.56:686][670]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.42.56:687][670]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook597E2CA3430CA045BEB2929E2A5291DD.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.42.56:694][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 14.6 sec)
+[2024.10.24-13.42.56:695][670]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.42.56:695][670]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.43.02:841][377]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.43.02:891][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.43.02:901][377]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.43.02:901][377]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook9FE95F7241E8FC7028968F99D8B33359.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.43.02:908][377]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 14.7 sec)
+[2024.10.24-13.43.02:911][377]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.43.02:911][377]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.43.21:336][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.43.21:389][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.43.21:399][497]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.43.21:401][497]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBookE87C523F4F007AC10CD63D985BBC5CEA.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.43.21:406][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 14.7 sec)
+[2024.10.24-13.43.21:411][497]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.43.21:411][497]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.43.25:540][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.43.25:590][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.43.25:601][977]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.43.25:601][977]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook462E8C6E4C227E18DEBCEF9BB7EB6F1A.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.43.25:606][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 14.8 sec)
+[2024.10.24-13.43.25:611][977]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.43.25:611][977]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.43.31:353][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.43.31:407][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.43.31:417][658]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.43.31:417][658]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook7F960B82424941AB4191E0BB6DD0590F.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.43.31:424][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 14.9 sec)
+[2024.10.24-13.43.31:427][658]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.43.31:427][658]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.43.39:908][644]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.43.39:915][644]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.43.39:915][644]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.43.39:916][644]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 79 ms)
+[2024.10.24-13.43.39:916][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.43.39:916][644]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:43:39)
+[2024.10.24-13.43.39:948][644]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.43.39:950][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002115s)
+[2024.10.24-13.43.39:950][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002167s)
+[2024.10.24-13.43.39:963][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.10.24-13.43.39:966][644]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.43.39:966][644]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.43.39:966][644]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.43.39:968][644]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.43.39:968][644]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.43.39:968][644]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.43.39:968][644]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.43.39:968][644]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.43.39:968][644]LogWorldPartition: Display: WorldPartition initialize took 609 us (total: 139 ms)
+[2024.10.24-13.43.39:968][644]LogPlayLevel: PIE: World Init took: (0.001895s)
+[2024.10.24-13.43.39:968][644]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2024.10.24-13.43.39:968][644]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.43.39:968][644]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.43.39:968][644]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.43.39:968][644]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.43.39:968][644]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.43.39:968][644]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.43.39:968][644]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.43.39:968][644]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.43.39:969][644]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.43.39:969][644]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.43.39:969][644]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.43.39:971][644]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.43.39:999][644]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.43.39:999][644]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.43.39:999][644]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.43.39:999][644]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.43.40:000][644]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2024.10.24-13.43.40:000][644]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2024.10.24-13.43.40:001][644]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2024.10.24-13.43.40:001][644]LogInit: FAudioDevice initialized with ID 60.
+[2024.10.24-13.43.40:001][644]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2024.10.24-13.43.40:001][644]LogAudio: Display: Audio Device (ID: 60) registered with world 'FirstPersonMap'.
+[2024.10.24-13.43.40:001][644]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2024.10.24-13.43.40:004][644]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.43.40:005][644]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.43.40
+[2024.10.24-13.43.40:005][644]LogWorld: Bringing up level for play took: 0.000894
+[2024.10.24-13.43.40:006][644]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2024.10.24-13.43.40:010][644]PIE: Server logged in
+[2024.10.24-13.43.40:011][644]PIE: Play in editor total start time 0.096 seconds.
+[2024.10.24-13.43.46:830][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.43.46:830][418]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.43.46:830][418]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.43.46:830][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.43.46:830][418]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.43.46:833][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.43.46:835][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.43.46:846][418]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.43.46:846][418]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2024.10.24-13.43.46:846][418]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.10.24-13.43.46:848][418]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.10.24-13.43.46:851][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.43.46:853][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.10.24-13.43.46:906][419]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2024.10.24-13.44.06:344][646]LogEditorTransaction: Undo Create Pin Link
+[2024.10.24-13.44.07:082][670]LogEditorTransaction: Undo Move Node
+[2024.10.24-13.44.08:499][822]LogEditorTransaction: Undo Break Pin Links
+[2024.10.24-13.44.14:429][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.44.14:460][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.44.14:481][475]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.44.14:481][475]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementE3EA539F486B880467AA6E8A0618A328.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.44.14:488][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 14.9 sec)
+[2024.10.24-13.44.14:491][475]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.44.14:491][475]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.44.15:010][532]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-13.44.15:038][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.24-13.44.16:332][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.44.16:338][632]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.44.16:338][632]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.44.16:339][632]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 80 ms)
+[2024.10.24-13.44.16:339][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.44.16:339][632]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:44:16)
+[2024.10.24-13.44.16:339][632]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.44.16:341][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001689s)
+[2024.10.24-13.44.16:341][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001714s)
+[2024.10.24-13.44.16:347][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.10.24-13.44.16:352][632]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.44.16:352][632]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.44.16:353][632]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.44.16:353][632]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.44.16:354][632]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.44.16:354][632]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.44.16:354][632]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.44.16:354][632]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.44.16:354][632]LogWorldPartition: Display: WorldPartition initialize took 587 us (total: 139 ms)
+[2024.10.24-13.44.16:354][632]LogPlayLevel: PIE: World Init took: (0.001802s)
+[2024.10.24-13.44.16:354][632]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2024.10.24-13.44.16:354][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.44.16:354][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.44.16:354][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.44.16:354][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.44.16:354][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.44.16:354][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.44.16:354][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.44.16:354][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.44.16:355][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.44.16:355][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.44.16:355][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.44.16:356][632]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.44.16:383][632]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.44.16:383][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.44.16:383][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.44.16:383][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.44.16:384][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2024.10.24-13.44.16:384][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2024.10.24-13.44.16:385][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2024.10.24-13.44.16:385][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2024.10.24-13.44.16:385][632]LogInit: FAudioDevice initialized with ID 61.
+[2024.10.24-13.44.16:385][632]LogAudio: Display: Audio Device (ID: 61) registered with world 'FirstPersonMap'.
+[2024.10.24-13.44.16:385][632]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2024.10.24-13.44.16:387][632]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.44.16:389][632]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.44.16
+[2024.10.24-13.44.16:389][632]LogWorld: Bringing up level for play took: 0.000840
+[2024.10.24-13.44.16:390][632]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2024.10.24-13.44.16:394][632]PIE: Server logged in
+[2024.10.24-13.44.16:394][632]PIE: Play in editor total start time 0.056 seconds.
+[2024.10.24-13.44.32:919][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.44.32:920][463]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.44.32:920][463]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.44.32:920][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.44.32:920][463]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.44.32:922][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.44.32:925][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.44.32:938][463]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.44.32:938][463]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2024.10.24-13.44.32:938][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.10.24-13.44.32:940][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.10.24-13.44.32:943][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.44.32:945][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-13.44.32:988][464]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2024.10.24-13.44.39:354][139]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Data/DT_Elements.DT_Elements
+[2024.10.24-13.44.41:547][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.44.41:598][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/DT_Elements" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Data/DT_Elements.uasset" SILENT=true
+[2024.10.24-13.44.41:600][392]LogSavePackage: Moving output files for package: /Game/Data/DT_Elements
+[2024.10.24-13.44.41:600][392]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/DT_ElementsB2A777FA416312C07D9E678F07FC04BD.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Data/DT_Elements.uasset'
+[2024.10.24-13.44.41:607][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 15.0 sec)
+[2024.10.24-13.44.41:611][392]AssetCheck: New page: Asset Save: DT_Elements
+[2024.10.24-13.44.41:611][392]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Data/DT_Elements.DT_Elements
+[2024.10.24-13.45.12:070][975]BlueprintLog: New page: Compile WBP_CollectionBook
+[2024.10.24-13.45.12:093][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.24-13.45.12:155][975]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.45.12:216][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.45.12:228][975]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.45.12:228][975]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook5A90D2A84776CCB3CF00D4A8C6429FEC.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.45.12:235][975]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 15.1 sec)
+[2024.10.24-13.45.12:239][975]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.45.12:239][975]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.45.12:738][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.45.12:797][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.45.12:808][ 25]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.45.12:809][ 25]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBookF12CCAA34B5A6CEEB4ED7DBFFBDCC685.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.45.12:817][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 15.1 sec)
+[2024.10.24-13.45.12:820][ 25]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.45.12:820][ 25]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.45.13:944][128]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.45.13:950][128]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.45.13:950][128]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.45.13:952][128]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 81 ms)
+[2024.10.24-13.45.13:952][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.45.13:952][128]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:45:13)
+[2024.10.24-13.45.13:979][128]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.45.13:981][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001994s)
+[2024.10.24-13.45.13:981][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002026s)
+[2024.10.24-13.45.13:993][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-13.45.13:998][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.45.13:998][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.45.13:999][128]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.45.13:999][128]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.45.13:999][128]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.45.13:999][128]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.45.13:999][128]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.45.14:000][128]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.45.14:000][128]LogWorldPartition: Display: WorldPartition initialize took 592 us (total: 140 ms)
+[2024.10.24-13.45.14:000][128]LogPlayLevel: PIE: World Init took: (0.002039s)
+[2024.10.24-13.45.14:000][128]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2024.10.24-13.45.14:000][128]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.45.14:000][128]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.45.14:000][128]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.45.14:000][128]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.45.14:000][128]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.45.14:000][128]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.45.14:000][128]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.45.14:000][128]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.45.14:000][128]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.45.14:000][128]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.45.14:000][128]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.45.14:002][128]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.45.14:030][128]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.45.14:031][128]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.45.14:031][128]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.45.14:031][128]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.45.14:032][128]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2024.10.24-13.45.14:032][128]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2024.10.24-13.45.14:033][128]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2024.10.24-13.45.14:033][128]LogInit: FAudioDevice initialized with ID 62.
+[2024.10.24-13.45.14:033][128]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2024.10.24-13.45.14:033][128]LogAudio: Display: Audio Device (ID: 62) registered with world 'FirstPersonMap'.
+[2024.10.24-13.45.14:033][128]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2024.10.24-13.45.14:036][128]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.45.14:037][128]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.45.14
+[2024.10.24-13.45.14:037][128]LogWorld: Bringing up level for play took: 0.000842
+[2024.10.24-13.45.14:038][128]LogOnline: OSS: Created online subsystem instance for: :Context_77
+[2024.10.24-13.45.14:041][128]LogBlueprintUserMessages: [WBP_CollectionBook_C_0] Collection Book Created
+[2024.10.24-13.45.14:041][128]PIE: Server logged in
+[2024.10.24-13.45.14:042][128]PIE: Play in editor total start time 0.091 seconds.
+[2024.10.24-13.45.34:050][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.45.34:050][281]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.45.34:051][281]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.45.34:051][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.45.34:051][281]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.45.34:070][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.45.34:073][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.45.34:084][281]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.45.34:085][281]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2024.10.24-13.45.34:085][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.10.24-13.45.34:086][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.10.24-13.45.34:089][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.45.34:091][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.24-13.45.34:133][282]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2024.10.24-13.45.39:323][869]LogEditorTransaction: Undo Change String Pin Value
+[2024.10.24-13.45.39:936][882]LogEditorTransaction: Undo Add Node
+[2024.10.24-13.45.40:836][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.45.40:887][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.45.40:903][972]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.45.40:904][972]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBook43F34EF34E209C0DB4B037978EE603E2.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.45.40:913][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 15.2 sec)
+[2024.10.24-13.45.40:916][972]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.45.40:916][972]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.45.41:883][ 77]BlueprintLog: New page: Compile WBP_CollectionBook
+[2024.10.24-13.45.41:905][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.24-13.45.42:879][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.45.42:917][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Collection/WBP_CollectionBook" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset" SILENT=true
+[2024.10.24-13.45.42:928][172]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Collection/WBP_CollectionBook
+[2024.10.24-13.45.42:929][172]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CollectionBookC4C3967040CA8180E3DBA19EEA17B509.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Collection/WBP_CollectionBook.uasset'
+[2024.10.24-13.45.42:934][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 15.3 sec)
+[2024.10.24-13.45.42:938][172]AssetCheck: New page: Asset Save: WBP_CollectionBook
+[2024.10.24-13.45.42:938][172]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Collection/WBP_CollectionBook.WBP_CollectionBook
+[2024.10.24-13.45.49:809][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.45.49:870][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.45.49:891][933]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.45.49:892][933]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element0707BD4D4CA17E44E21A80A7B1727EED.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.45.49:898][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 15.4 sec)
+[2024.10.24-13.45.49:901][933]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.45.49:901][933]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.45.50:724][ 28]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-13.45.50:754][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.24-13.45.51:419][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.45.51:467][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.45.51:489][ 92]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.45.51:489][ 92]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementE08593D746F3184FB5F5B8B6084542F7.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.45.51:498][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 15.4 sec)
+[2024.10.24-13.45.51:500][ 92]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.45.51:500][ 92]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.45.58:658][951]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.45.58:722][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.45.58:743][951]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.45.58:744][951]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementE765B741419B8B928A45C0BAF97706B8.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.45.58:752][951]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 15.5 sec)
+[2024.10.24-13.45.58:756][951]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.45.58:756][951]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.46.06:327][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.46.06:366][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.46.06:388][854]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.46.06:388][854]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementEA5297444A9CC48D786BDFB4C384748F.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.46.06:396][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 15.6 sec)
+[2024.10.24-13.46.06:399][854]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.46.06:399][854]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.46.22:203][723]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.46.22:254][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.46.22:276][723]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.46.22:277][723]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element1FAC2D5940E4448ED5A357A5649A718F.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.46.22:285][723]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 15.7 sec)
+[2024.10.24-13.46.22:288][723]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.46.22:288][723]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.46.28:089][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.46.28:139][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.46.28:160][411]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.46.28:161][411]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element8B8F73F047B2D9A67DF91C891ADD1965.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.46.28:169][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 15.8 sec)
+[2024.10.24-13.46.28:172][411]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.46.28:172][411]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.46.28:877][495]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-13.46.28:912][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.24-13.46.30:528][638]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.46.30:535][638]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.46.30:535][638]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.46.30:537][638]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 83 ms)
+[2024.10.24-13.46.30:537][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.46.30:537][638]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:46:30)
+[2024.10.24-13.46.30:537][638]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.46.30:538][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001725s)
+[2024.10.24-13.46.30:538][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.001749s)
+[2024.10.24-13.46.30:550][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-13.46.30:555][638]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.46.30:555][638]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.46.30:555][638]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.46.30:556][638]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.46.30:556][638]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.46.30:556][638]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.46.30:556][638]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.46.30:557][638]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.46.30:557][638]LogWorldPartition: Display: WorldPartition initialize took 538 us (total: 140 ms)
+[2024.10.24-13.46.30:557][638]LogPlayLevel: PIE: World Init took: (0.001972s)
+[2024.10.24-13.46.30:557][638]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2024.10.24-13.46.30:557][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.46.30:557][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.46.30:557][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.46.30:557][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.46.30:557][638]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.46.30:557][638]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.46.30:557][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.46.30:557][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.46.30:557][638]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.46.30:557][638]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.46.30:557][638]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.46.30:559][638]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.46.30:586][638]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.46.30:586][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.46.30:586][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.46.30:587][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.46.30:587][638]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2024.10.24-13.46.30:587][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2024.10.24-13.46.30:588][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2024.10.24-13.46.30:588][638]LogInit: FAudioDevice initialized with ID 63.
+[2024.10.24-13.46.30:588][638]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2024.10.24-13.46.30:588][638]LogAudio: Display: Audio Device (ID: 63) registered with world 'FirstPersonMap'.
+[2024.10.24-13.46.30:588][638]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2024.10.24-13.46.30:591][638]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.46.30:592][638]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.46.30
+[2024.10.24-13.46.30:592][638]LogWorld: Bringing up level for play took: 0.000915
+[2024.10.24-13.46.30:594][638]LogOnline: OSS: Created online subsystem instance for: :Context_78
+[2024.10.24-13.46.30:597][638]PIE: Server logged in
+[2024.10.24-13.46.30:598][638]PIE: Play in editor total start time 0.062 seconds.
+[2024.10.24-13.46.35:432][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.46.35:432][193]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.46.35:433][193]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.46.35:433][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.46.35:433][193]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.46.35:436][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.46.35:438][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.46.35:452][193]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.46.35:452][193]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2024.10.24-13.46.35:452][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.10.24-13.46.35:453][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.10.24-13.46.35:457][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.46.35:458][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.10.24-13.46.35:510][194]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2024.10.24-13.46.52:439][731]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.10.24-13.46.52:451][731]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.10.24-13.46.52:458][731]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.10.24-13.46.52:469][732]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.10.24-13.46.58:098][311]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_AtomsCurrency
+[2024.10.24-13.46.58:102][311]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.10.24-13.46.58:563][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.46.58:624][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_AtomsCurrency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset" SILENT=true
+[2024.10.24-13.46.58:627][352]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_AtomsCurrency
+[2024.10.24-13.46.58:627][352]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_AtomsCurrency94D70FDF44A2A30840AB089F844FD1E0.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset'
+[2024.10.24-13.46.58:636][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 15.8 sec)
+[2024.10.24-13.46.58:637][352]AssetCheck: New page: Asset Save: WBP_AtomsCurrency
+[2024.10.24-13.46.58:637][352]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.46.59:450][435]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.46.59:450][435]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.46.59:450][435]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.46.59:456][435]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.46.59:456][435]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.48.01:195][569]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.48.01:226][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_AtomsCurrency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset" SILENT=true
+[2024.10.24-13.48.01:229][569]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_AtomsCurrency
+[2024.10.24-13.48.01:229][569]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_AtomsCurrency9711A1164215621A68A30BA117E56412.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset'
+[2024.10.24-13.48.01:235][569]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 15.9 sec)
+[2024.10.24-13.48.01:240][569]AssetCheck: New page: Asset Save: WBP_AtomsCurrency
+[2024.10.24-13.48.01:240][569]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.48.08:539][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.48.08:598][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_AtomsCurrency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset" SILENT=true
+[2024.10.24-13.48.08:601][417]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_AtomsCurrency
+[2024.10.24-13.48.08:602][417]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_AtomsCurrencyB43C22A147E4F6896D3268A1398DCCA7.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset'
+[2024.10.24-13.48.08:608][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 15.9 sec)
+[2024.10.24-13.48.08:612][417]AssetCheck: New page: Asset Save: WBP_AtomsCurrency
+[2024.10.24-13.48.08:612][417]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.48.09:610][536]BlueprintLog: New page: Compile WBP_AtomsCurrency
+[2024.10.24-13.48.09:630][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.24-13.48.10:193][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.48.10:226][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_AtomsCurrency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset" SILENT=true
+[2024.10.24-13.48.10:229][591]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_AtomsCurrency
+[2024.10.24-13.48.10:229][591]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_AtomsCurrency195E840E45CE6A4121DE2E84FACB6587.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset'
+[2024.10.24-13.48.10:236][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 16.0 sec)
+[2024.10.24-13.48.10:239][591]AssetCheck: New page: Asset Save: WBP_AtomsCurrency
+[2024.10.24-13.48.10:239][591]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.48.19:095][573]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.48.19:198][573]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.48.19:199][573]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterF08C497141F86753C7CBD0A7E1C1D79C.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.48.19:205][573]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 16.1 sec)
+[2024.10.24-13.48.19:209][573]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.48.19:209][573]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.48.19:903][655]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-13.48.19:949][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.24-13.48.20:760][722]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.48.20:835][722]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.48.20:835][722]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterCEF4A3E241590233177A66B1C3522C8B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.48.20:842][722]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 16.2 sec)
+[2024.10.24-13.48.20:843][722]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.48.20:843][722]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.48.26:898][424]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.48.26:947][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_AtomsCurrency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset" SILENT=true
+[2024.10.24-13.48.26:950][424]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_AtomsCurrency
+[2024.10.24-13.48.26:951][424]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_AtomsCurrency7B85AC8C4749E54161E804BA660E8424.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset'
+[2024.10.24-13.48.26:958][424]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 16.2 sec)
+[2024.10.24-13.48.26:962][424]AssetCheck: New page: Asset Save: WBP_AtomsCurrency
+[2024.10.24-13.48.26:962][424]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.48.45:539][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.48.45:579][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_AtomsCurrency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset" SILENT=true
+[2024.10.24-13.48.45:582][591]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_AtomsCurrency
+[2024.10.24-13.48.45:582][591]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_AtomsCurrencyEC4B38394DBBF09C92D71E8670C40CD4.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset'
+[2024.10.24-13.48.45:589][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 16.3 sec)
+[2024.10.24-13.48.45:591][591]AssetCheck: New page: Asset Save: WBP_AtomsCurrency
+[2024.10.24-13.48.45:591][591]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.48.47:962][858]LogEditorTransaction: Undo Function Dropped on Graph
+[2024.10.24-13.49.01:579][332]BlueprintLog: New page: Compile WBP_AtomsCurrency
+[2024.10.24-13.49.01:603][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.24-13.49.01:615][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.01:672][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_AtomsCurrency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset" SILENT=true
+[2024.10.24-13.49.01:677][332]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_AtomsCurrency
+[2024.10.24-13.49.01:677][332]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_AtomsCurrencyD82E8E674DFA8385365AD0BAFA6351B5.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset'
+[2024.10.24-13.49.01:686][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 16.4 sec)
+[2024.10.24-13.49.01:688][332]AssetCheck: New page: Asset Save: WBP_AtomsCurrency
+[2024.10.24-13.49.01:689][332]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.49.02:146][376]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.02:178][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_AtomsCurrency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset" SILENT=true
+[2024.10.24-13.49.02:181][376]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_AtomsCurrency
+[2024.10.24-13.49.02:182][376]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_AtomsCurrencyCBFD8F7344E35668E46A909D76483A1A.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/WBP_AtomsCurrency.uasset'
+[2024.10.24-13.49.02:189][376]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 16.4 sec)
+[2024.10.24-13.49.02:191][376]AssetCheck: New page: Asset Save: WBP_AtomsCurrency
+[2024.10.24-13.49.02:191][376]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/WBP_AtomsCurrency.WBP_AtomsCurrency
+[2024.10.24-13.49.06:989][947]LogWorld: UWorld::CleanupWorld for World_160, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.49.06:989][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.49.06:994][947]LogWorld: UWorld::CleanupWorld for World_159, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.49.06:994][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.49.08:556][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.08:628][117]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.49.08:628][117]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterB440DA43404B1FE1DDBD81A1198EA5C3.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.49.08:635][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 16.5 sec)
+[2024.10.24-13.49.08:638][117]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.49.08:638][117]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.49.11:190][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.11:243][411]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.49.11:244][411]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter865C0C824A1A1775267A479D292F6914.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.49.11:251][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 16.5 sec)
+[2024.10.24-13.49.11:254][411]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.49.11:254][411]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.49.30:667][572]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.30:743][572]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.49.30:744][572]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter720F9BBE491E892DBB8F47B1B52EFCBE.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.49.30:750][572]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 16.6 sec)
+[2024.10.24-13.49.30:752][572]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.49.30:754][572]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.49.35:282][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.35:358][ 88]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.49.35:359][ 88]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterF8B59E564D22DFA87A39FE8BD67456D3.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.49.35:365][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 16.7 sec)
+[2024.10.24-13.49.35:368][ 88]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.49.35:368][ 88]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.49.35:824][138]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-13.49.35:873][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-13.49.36:501][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.36:595][185]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.49.36:596][185]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterDAD04BB6418FA7B5932C8F99B50742F8.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.49.36:602][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 16.8 sec)
+[2024.10.24-13.49.36:606][185]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.49.36:606][185]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.49.37:452][249]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.49.37:458][249]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.49.37:458][249]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.49.37:459][249]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 84 ms)
+[2024.10.24-13.49.37:459][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.49.37:460][249]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:49:37)
+[2024.10.24-13.49.37:493][249]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.49.37:496][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002730s)
+[2024.10.24-13.49.37:496][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002779s)
+[2024.10.24-13.49.37:508][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.24-13.49.37:512][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.49.37:512][249]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.49.37:512][249]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.49.37:513][249]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.49.37:513][249]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.49.37:513][249]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.49.37:513][249]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.49.37:513][249]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.49.37:513][249]LogWorldPartition: Display: WorldPartition initialize took 621 us (total: 141 ms)
+[2024.10.24-13.49.37:513][249]LogPlayLevel: PIE: World Init took: (0.001855s)
+[2024.10.24-13.49.37:513][249]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2024.10.24-13.49.37:513][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.49.37:514][249]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.49.37:514][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.49.37:514][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.49.37:514][249]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.49.37:514][249]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.49.37:514][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.49.37:514][249]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.49.37:514][249]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.49.37:514][249]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.49.37:514][249]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.49.37:516][249]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.49.37:544][249]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.49.37:544][249]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.49.37:544][249]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.49.37:544][249]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.49.37:545][249]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2024.10.24-13.49.37:545][249]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2024.10.24-13.49.37:546][249]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2024.10.24-13.49.37:546][249]LogInit: FAudioDevice initialized with ID 64.
+[2024.10.24-13.49.37:546][249]LogAudio: Display: Audio Device (ID: 64) registered with world 'FirstPersonMap'.
+[2024.10.24-13.49.37:546][249]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2024.10.24-13.49.37:546][249]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2024.10.24-13.49.37:548][249]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.49.37:549][249]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.49.37
+[2024.10.24-13.49.37:549][249]LogWorld: Bringing up level for play took: 0.000904
+[2024.10.24-13.49.37:550][249]LogOnline: OSS: Created online subsystem instance for: :Context_81
+[2024.10.24-13.49.37:555][249]PIE: Server logged in
+[2024.10.24-13.49.37:555][249]PIE: Play in editor total start time 0.097 seconds.
+[2024.10.24-13.49.38:805][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.49.38:805][385]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.49.38:805][385]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.49.38:805][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.49.38:805][385]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.49.38:808][385]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.49.38:810][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.49.38:824][385]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.49.38:825][385]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2024.10.24-13.49.38:825][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.10.24-13.49.38:826][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.10.24-13.49.38:829][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.49.38:831][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.24-13.49.38:886][386]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2024.10.24-13.49.41:479][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.41:530][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.49.41:553][655]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.49.41:553][655]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element141E30BC477B7028CC978B8F93147BE4.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.49.41:560][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 16.9 sec)
+[2024.10.24-13.49.41:563][655]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.49.41:563][655]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.49.54:824][ 21]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.24-13.49.54:834][ 21]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.24-13.49.54:842][ 21]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.24-13.49.54:861][ 22]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.24-13.49.58:085][407]LogContentBrowser: Attempting asset rename: NewBlueprint -> AC_Currency
+[2024.10.24-13.49.58:089][407]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.24-13.49.58:492][447]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.49.58:550][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.49.58:553][447]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.49.58:553][447]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyA631E0CD4EE33E7995C79CB4F0FACD02.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.49.58:561][447]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 17.0 sec)
+[2024.10.24-13.49.58:562][447]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.49.58:562][447]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.49.59:432][545]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.49.59:433][545]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.49.59:433][545]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.50.09:302][635]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.09:353][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.50.09:355][635]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.50.09:356][635]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency4059C51B4E5E526435BDB4BADEFBFD1F.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.50.09:363][635]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 17.0 sec)
+[2024.10.24-13.50.09:365][635]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.50.09:365][635]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.50.09:698][673]BlueprintLog: New page: Compile AC_Currency
+[2024.10.24-13.50.09:714][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.24-13.50.10:443][751]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.10:504][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.50.10:506][751]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.50.10:506][751]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency2ABC70284E58CF7A6359BCA62020D681.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.50.10:514][751]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 17.1 sec)
+[2024.10.24-13.50.10:516][751]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.50.10:516][751]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.50.12:052][935]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.12:084][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.50.12:086][935]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.50.12:087][935]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyFBA9B90B4CA0C36E562EB381EA534813.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.50.12:093][935]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 17.1 sec)
+[2024.10.24-13.50.12:096][935]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.50.12:096][935]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.50.19:246][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.19:355][697]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.50.19:355][697]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterBB51B9264E6325C2573EE2A326A0D0A4.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.50.19:362][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 17.3 sec)
+[2024.10.24-13.50.19:365][697]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.50.19:365][697]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.50.20:050][778]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-13.50.20:097][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.24-13.50.21:202][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.21:278][882]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.50.21:279][882]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterA9F99F9A444260290EE25FAAC838BC0C.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.50.21:286][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 17.3 sec)
+[2024.10.24-13.50.21:286][882]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.50.21:286][882]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.50.24:822][306]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.24:880][306]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.50.24:880][306]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterA0D9F22842A6C8A4D1EAC394863C097E.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.50.24:887][306]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 17.4 sec)
+[2024.10.24-13.50.24:888][306]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.50.24:888][306]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.50.31:196][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.31:266][ 55]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.50.31:267][ 55]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter4FF2468B4E0DE8A513783D81CA267544.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.50.31:275][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 17.5 sec)
+[2024.10.24-13.50.31:278][ 55]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.50.31:279][ 55]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.50.35:649][579]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.35:721][579]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.50.35:721][579]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter64C9347A499B05BAFC3F418AF734A37B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.50.35:728][579]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 17.6 sec)
+[2024.10.24-13.50.35:731][579]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.50.35:731][579]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.50.39:497][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.50.39:568][ 28]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.50.39:569][ 28]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterD855A8734D5988C3E6B87691293C92BD.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.50.39:576][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 17.6 sec)
+[2024.10.24-13.50.39:579][ 28]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.50.39:579][ 28]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.51.05:689][925]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.51.05:784][925]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.51.05:785][925]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterA94BC4E544426041F217DF95F15B10C6.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.51.05:792][925]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 17.7 sec)
+[2024.10.24-13.51.05:794][925]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.51.05:794][925]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.51.06:321][987]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-13.51.06:371][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.24-13.51.06:915][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.51.07:018][ 23]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-13.51.07:018][ 23]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter05F5ADCF4C8ABF5CA4793A8A8E30174D.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-13.51.07:026][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 17.9 sec)
+[2024.10.24-13.51.07:030][ 23]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-13.51.07:030][ 23]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-13.51.08:333][139]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.51.08:339][139]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.51.08:339][139]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.51.08:340][139]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 85 ms)
+[2024.10.24-13.51.08:340][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.51.08:340][139]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:51:08)
+[2024.10.24-13.51.08:374][139]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.51.08:377][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002571s)
+[2024.10.24-13.51.08:377][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002619s)
+[2024.10.24-13.51.08:389][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.24-13.51.08:391][139]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.51.08:391][139]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.51.08:391][139]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.51.08:392][139]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.51.08:392][139]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.51.08:392][139]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.51.08:392][139]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.51.08:393][139]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.51.08:393][139]LogWorldPartition: Display: WorldPartition initialize took 588 us (total: 141 ms)
+[2024.10.24-13.51.08:393][139]LogPlayLevel: PIE: World Init took: (0.001934s)
+[2024.10.24-13.51.08:393][139]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2024.10.24-13.51.08:393][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.51.08:393][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.51.08:393][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.51.08:393][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.51.08:393][139]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.51.08:393][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.51.08:393][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.51.08:393][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.51.08:393][139]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.51.08:393][139]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.51.08:393][139]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.51.08:394][139]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.51.08:422][139]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.51.08:423][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.51.08:423][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.51.08:423][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.51.08:424][139]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2024.10.24-13.51.08:424][139]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2024.10.24-13.51.08:425][139]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2024.10.24-13.51.08:425][139]LogInit: FAudioDevice initialized with ID 65.
+[2024.10.24-13.51.08:425][139]LogAudio: Display: Audio Device (ID: 65) registered with world 'FirstPersonMap'.
+[2024.10.24-13.51.08:425][139]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2024.10.24-13.51.08:425][139]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2024.10.24-13.51.08:427][139]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.51.08:428][139]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.51.08
+[2024.10.24-13.51.08:428][139]LogWorld: Bringing up level for play took: 0.000767
+[2024.10.24-13.51.08:429][139]LogOnline: OSS: Created online subsystem instance for: :Context_83
+[2024.10.24-13.51.08:434][139]PIE: Server logged in
+[2024.10.24-13.51.08:434][139]PIE: Play in editor total start time 0.095 seconds.
+[2024.10.24-13.51.09:305][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.51.09:305][231]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.51.09:305][231]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.51.09:305][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.51.09:305][231]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.51.09:308][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.51.09:310][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.51.09:323][231]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.51.09:323][231]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2024.10.24-13.51.09:323][231]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.10.24-13.51.09:325][231]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.10.24-13.51.09:328][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.51.09:330][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.24-13.51.09:382][232]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2024.10.24-13.52.09:000][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.52.09:042][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.52.09:045][ 95]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.52.09:045][ 95]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency2616337E412AD8AC8EF1A6AB2863480D.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.52.09:052][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 17.9 sec)
+[2024.10.24-13.52.09:058][ 95]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.52.09:058][ 95]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.52.10:065][209]BlueprintLog: New page: Compile AC_Currency
+[2024.10.24-13.52.10:149][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.10.24-13.52.10:729][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.52.10:777][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.52.10:781][266]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.52.10:782][266]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyC9B250A7406ADF5F484EA585F4454B19.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.52.10:789][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 18.0 sec)
+[2024.10.24-13.52.10:792][266]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.52.10:792][266]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.52.19:178][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.52.19:227][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.52.19:230][256]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.52.19:231][256]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency6C3F2CA844E986A5B351BE8C67459432.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.52.19:237][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 18.0 sec)
+[2024.10.24-13.52.19:241][256]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.52.19:241][256]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.52.45:704][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.52.45:764][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.52.45:767][198]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.52.45:767][198]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency8182EF4749D4D55279ECD9B707D73F7A.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.52.45:775][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 18.1 sec)
+[2024.10.24-13.52.45:778][198]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.52.45:778][198]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.52.47:383][375]BlueprintLog: New page: Compile AC_Currency
+[2024.10.24-13.52.47:405][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-13.52.58:114][648]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.52.58:182][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.52.58:185][648]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.52.58:187][648]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency08CF9107447AE2AA635798A78CD97CBE.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.52.58:193][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 18.2 sec)
+[2024.10.24-13.52.58:194][648]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.52.58:194][648]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.53.25:327][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.53.25:382][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.53.25:403][864]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.53.25:403][864]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element8634E45042C622DF8FD0009A19AB6FA8.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.53.25:411][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 18.3 sec)
+[2024.10.24-13.53.25:413][864]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.53.25:413][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.53.41:086][696]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.53.41:129][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.53.41:153][696]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.53.41:153][696]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementF939FE244B9E696A21BB9C93CE802E3B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.53.41:161][696]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 18.3 sec)
+[2024.10.24-13.53.41:163][696]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.53.41:164][696]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.53.50:736][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.53.50:783][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.53.50:804][795]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.53.50:806][795]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element33C632BE47E7C0A184A400B4BF1D9823.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.53.50:812][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 18.4 sec)
+[2024.10.24-13.53.50:814][795]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.53.50:814][795]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.53.51:239][844]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-13.53.51:270][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-13.53.51:840][893]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.53.51:900][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.53.51:927][893]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.53.51:928][893]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element04F87CCD4D6936C7ABDA4B964D6C3E8D.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.53.51:937][893]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 18.5 sec)
+[2024.10.24-13.53.51:941][893]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.53.51:941][893]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.53.53:033][994]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.53.53:040][994]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.53.53:040][994]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.53.53:041][994]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 86 ms)
+[2024.10.24-13.53.53:041][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.53.53:041][994]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:53:53)
+[2024.10.24-13.53.53:077][994]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.53.53:079][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002722s)
+[2024.10.24-13.53.53:079][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002767s)
+[2024.10.24-13.53.53:093][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-13.53.53:099][994]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.53.53:099][994]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.53.53:099][994]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.53.53:100][994]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.53.53:100][994]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.53.53:100][994]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.53.53:100][994]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.53.53:101][994]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.53.53:101][994]LogWorldPartition: Display: WorldPartition initialize took 682 us (total: 142 ms)
+[2024.10.24-13.53.53:101][994]LogPlayLevel: PIE: World Init took: (0.002064s)
+[2024.10.24-13.53.53:101][994]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2024.10.24-13.53.53:101][994]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.53.53:101][994]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.53.53:101][994]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.53.53:101][994]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.53.53:101][994]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.53.53:101][994]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.53.53:101][994]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.53.53:101][994]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.53.53:101][994]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.53.53:101][994]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.53.53:101][994]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.53.53:103][994]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.53.53:131][994]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.53.53:131][994]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.53.53:131][994]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.53.53:131][994]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.53.53:132][994]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2024.10.24-13.53.53:132][994]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2024.10.24-13.53.53:133][994]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2024.10.24-13.53.53:133][994]LogInit: FAudioDevice initialized with ID 66.
+[2024.10.24-13.53.53:133][994]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2024.10.24-13.53.53:133][994]LogAudio: Display: Audio Device (ID: 66) registered with world 'FirstPersonMap'.
+[2024.10.24-13.53.53:133][994]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 66
+[2024.10.24-13.53.53:135][994]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.53.53:136][994]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.53.53
+[2024.10.24-13.53.53:136][994]LogWorld: Bringing up level for play took: 0.000804
+[2024.10.24-13.53.53:138][994]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2024.10.24-13.53.53:142][994]PIE: Server logged in
+[2024.10.24-13.53.53:142][994]PIE: Play in editor total start time 0.103 seconds.
+[2024.10.24-13.54.07:257][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.54.07:257][649]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.54.07:258][649]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.54.07:258][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.54.07:258][649]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.54.07:261][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.54.07:263][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.54.07:278][649]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.54.07:278][649]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 66
+[2024.10.24-13.54.07:278][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2024.10.24-13.54.07:280][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2024.10.24-13.54.07:282][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.54.07:285][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.24-13.54.07:337][650]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2024.10.24-13.55.19:605][  4]LogEditorTransaction: Undo Create Pin Link
+[2024.10.24-13.55.19:944][  7]LogEditorTransaction: Undo Move Node
+[2024.10.24-13.55.20:381][ 32]LogEditorTransaction: Undo Paste clipboard contents
+[2024.10.24-13.55.20:775][ 65]LogEditorTransaction: Undo Move Node
+[2024.10.24-13.55.21:130][ 93]LogEditorTransaction: Undo Create Pin Link
+[2024.10.24-13.55.21:548][129]LogEditorTransaction: Undo Paste clipboard contents
+[2024.10.24-13.55.22:084][179]LogEditorTransaction: Undo Add Node
+[2024.10.24-13.57.43:741][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.57.43:800][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.57.43:824][692]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.57.43:826][692]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element333C55B241332B3076D0608482E64FA9.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.57.43:835][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 18.6 sec)
+[2024.10.24-13.57.43:841][692]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.57.43:841][692]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.59.13:127][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.59.13:169][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.59.13:192][ 93]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.59.13:193][ 93]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element8C20035B469DE03DC14028860984D29B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.59.13:200][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 18.7 sec)
+[2024.10.24-13.59.13:203][ 93]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.59.13:203][ 93]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.59.13:618][142]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-13.59.13:652][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.24-13.59.14:315][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.59.14:350][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-13.59.14:374][202]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-13.59.14:375][202]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element8514CF564947ED153D233ABB2086BAB7.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-13.59.14:381][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 18.7 sec)
+[2024.10.24-13.59.14:384][202]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-13.59.14:384][202]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-13.59.15:678][327]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-13.59.15:684][327]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-13.59.15:684][327]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-13.59.15:685][327]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 87 ms)
+[2024.10.24-13.59.15:685][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.24-13.59.15:685][327]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 15:59:15)
+[2024.10.24-13.59.15:720][327]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.59.15:723][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003104s)
+[2024.10.24-13.59.15:723][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003153s)
+[2024.10.24-13.59.15:738][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.24-13.59.15:739][327]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-13.59.15:740][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-13.59.15:740][327]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-13.59.15:741][327]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-13.59.15:741][327]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-13.59.15:741][327]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-13.59.15:741][327]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-13.59.15:742][327]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-13.59.15:742][327]LogWorldPartition: Display: WorldPartition initialize took 630 us (total: 143 ms)
+[2024.10.24-13.59.15:742][327]LogPlayLevel: PIE: World Init took: (0.002257s)
+[2024.10.24-13.59.15:742][327]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2024.10.24-13.59.15:742][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-13.59.15:742][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-13.59.15:742][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-13.59.15:742][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-13.59.15:742][327]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-13.59.15:742][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-13.59.15:742][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-13.59.15:742][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-13.59.15:742][327]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-13.59.15:742][327]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-13.59.15:742][327]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-13.59.15:745][327]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-13.59.15:776][327]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-13.59.15:776][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-13.59.15:776][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-13.59.15:776][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-13.59.15:777][327]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2024.10.24-13.59.15:777][327]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2024.10.24-13.59.15:778][327]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2024.10.24-13.59.15:778][327]LogInit: FAudioDevice initialized with ID 67.
+[2024.10.24-13.59.15:778][327]LogAudio: Display: Audio Device (ID: 67) registered with world 'FirstPersonMap'.
+[2024.10.24-13.59.15:778][327]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2024.10.24-13.59.15:778][327]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 67
+[2024.10.24-13.59.15:781][327]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-13.59.15:782][327]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-14.59.15
+[2024.10.24-13.59.15:782][327]LogWorld: Bringing up level for play took: 0.000820
+[2024.10.24-13.59.15:783][327]LogOnline: OSS: Created online subsystem instance for: :Context_85
+[2024.10.24-13.59.15:787][327]PIE: Server logged in
+[2024.10.24-13.59.15:788][327]PIE: Play in editor total start time 0.103 seconds.
+[2024.10.24-13.59.24:391][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.59.24:391][331]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-13.59.24:391][331]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-13.59.24:391][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.59.24:392][331]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-13.59.24:395][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-13.59.24:397][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-13.59.24:409][331]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.24-13.59.24:409][331]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 67
+[2024.10.24-13.59.24:409][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2024.10.24-13.59.24:411][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2024.10.24-13.59.24:416][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-13.59.24:418][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.24-13.59.24:475][332]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2024.10.24-13.59.28:315][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.59.28:368][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.59.28:370][770]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.59.28:371][770]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyA85F0AAB4EA2F180618FC6A62098BFB8.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.59.28:378][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 18.8 sec)
+[2024.10.24-13.59.28:379][770]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.59.28:379][770]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.59.46:380][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.59.46:440][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.59.46:443][799]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.59.46:444][799]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency4C9FF44C41A519ADF476DA9CDC986DD4.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.59.46:451][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 18.9 sec)
+[2024.10.24-13.59.46:454][799]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.59.46:454][799]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-13.59.47:344][898]BlueprintLog: New page: Compile AC_Currency
+[2024.10.24-13.59.47:431][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.24-13.59.48:241][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-13.59.48:287][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-13.59.48:291][981]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-13.59.48:292][981]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyAD144A9340C029346BC64A986252342C.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-13.59.48:299][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 18.9 sec)
+[2024.10.24-13.59.48:301][981]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-13.59.48:301][981]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.00.06:872][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.00.06:924][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.00.06:927][ 81]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.00.06:928][ 81]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency3613A56A4BE14103D787F48729508D95.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.00.06:935][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 19.0 sec)
+[2024.10.24-14.00.06:939][ 81]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.00.06:939][ 81]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.00.53:386][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.00.53:439][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.00.53:443][ 44]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.00.53:443][ 44]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency884FB27744E86629C9DDC2B6C9744013.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.00.53:449][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 19.1 sec)
+[2024.10.24-14.00.53:452][ 44]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.00.53:452][ 44]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.00.55:475][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.00.55:523][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.00.55:526][131]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.00.55:527][131]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency2EB801D6448A87C857F5018729D95863.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.00.55:533][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 19.1 sec)
+[2024.10.24-14.00.55:535][131]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.00.55:535][131]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.00.56:224][213]BlueprintLog: New page: Compile AC_Currency
+[2024.10.24-14.00.56:252][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.10.24-14.00.57:076][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.00.57:125][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.00.57:128][298]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.00.57:128][298]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyA9ACC70C43EA4EC92C0EE1A5CD521E4D.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.00.57:136][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 19.2 sec)
+[2024.10.24-14.00.57:140][298]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.00.57:140][298]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.00.58:981][518]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.00.59:024][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.00.59:027][518]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.00.59:028][518]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency8C3DFE2A4BEDE9C785E10F88495EA251.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.00.59:036][518]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 19.2 sec)
+[2024.10.24-14.00.59:038][518]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.00.59:038][518]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.00.59:456][560]BlueprintLog: New page: Compile AC_Currency
+[2024.10.24-14.00.59:483][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.24-14.01.00:098][620]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.01.00:141][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.01.00:144][620]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.01.00:145][620]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency905546AD4F1E2F22F22BCCAB8C20EC22.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.01.00:151][620]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 19.3 sec)
+[2024.10.24-14.01.00:154][620]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.01.00:154][620]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.01.06:676][379]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.01.06:727][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.01.06:730][379]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.01.06:730][379]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency7E32EB964727A0FAEFEF0CBDA47439B5.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.01.06:737][379]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 19.3 sec)
+[2024.10.24-14.01.06:742][379]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.01.06:742][379]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.01.07:406][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.01.07:441][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.01.07:444][459]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.01.07:445][459]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency3C6A6F9640D434FA322688B31BF360A6.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.01.07:451][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 19.4 sec)
+[2024.10.24-14.01.07:454][459]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.01.07:454][459]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.01.14:617][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.01.14:731][309]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.01.14:732][309]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter82748CA94E1845D3FC52B5AF364CE180.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.01.14:739][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 19.5 sec)
+[2024.10.24-14.01.14:740][309]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.01.14:740][309]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.02.02:520][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.02.02:626][965]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.02.02:627][965]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter03EE690848A4EAC84A36D2B8ADC8F1E1.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.02.02:634][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 19.6 sec)
+[2024.10.24-14.02.02:637][965]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.02.02:637][965]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.02.03:886][109]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-14.02.03:935][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.24-14.02.04:594][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.02.04:692][160]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.02.04:692][160]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter5E88D88E4AC8633B327E0C90D14525A0.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.02.04:700][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 19.7 sec)
+[2024.10.24-14.02.04:705][160]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.02.04:705][160]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.02.28:757][975]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.02.28:796][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.02.28:820][975]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.02.28:821][975]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element96ECF66B4D5B8D5DD85309BA1BD41A51.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.02.28:830][975]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 19.8 sec)
+[2024.10.24-14.02.28:834][975]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.02.28:834][975]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.02.30:028][102]BlueprintLog: New page: Compile BP_Element
+[2024.10.24-14.02.30:061][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.24-14.02.30:741][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.02.30:800][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.02.30:824][166]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.02.30:824][166]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element3383E7D840654FD3A250C6BE1D6678AF.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.02.30:831][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 19.9 sec)
+[2024.10.24-14.02.30:834][166]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.02.30:834][166]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.02.40:158][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.02.40:213][269]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.02.40:214][269]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacterE6A052AA447DC94E5BA18A9C22D1D163.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.02.40:222][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 20.0 sec)
+[2024.10.24-14.02.40:225][269]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.02.40:225][269]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.02.44:041][723]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.02.44:113][723]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.02.44:113][723]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter491FFD95424341D1692CBB98F28E695E.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.02.44:121][723]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 20.0 sec)
+[2024.10.24-14.02.44:129][723]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.02.44:129][723]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.03.02:184][824]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.03.02:231][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.10.24-14.03.02:255][824]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.10.24-14.03.02:255][824]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_ElementD82F4A4146248E5BBF16D689B6229BC9.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.10.24-14.03.02:262][824]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 20.1 sec)
+[2024.10.24-14.03.02:265][824]AssetCheck: New page: Asset Save: BP_Element
+[2024.10.24-14.03.02:265][824]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.10.24-14.03.07:863][482]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.03.07:911][482]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.03.07:912][482]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter4C414F1541AA515A4AC13AA3464E65C3.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.03.07:919][482]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 20.2 sec)
+[2024.10.24-14.03.07:923][482]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.03.07:923][482]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.03.09:348][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.03.09:413][653]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.03.09:414][653]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter0006A9BF41620CAAF0DBC7B99EDCDFD3.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.03.09:422][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 20.2 sec)
+[2024.10.24-14.03.09:426][653]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.03.09:426][653]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.03.26:013][556]LogDerivedDataCache: C:/Users/l3-burge/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.078 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 809 files in 1381 folders with total size 64 MiB.
+[2024.10.24-14.03.36:694][776]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.24-14.03.36:752][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.10.24-14.03.36:889][776]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.03.36:997][776]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.03.36:998][776]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter17FEAA7B4633A4227C0342831A1F5B31.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.03.37:004][776]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 20.4 sec)
+[2024.10.24-14.03.37:024][776]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.03.37:024][776]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.03.37:519][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.03.37:581][815]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.24-14.03.37:582][815]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_FirstPersonCharacter40E641C149A61285CFBA74920D4001D7.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.24-14.03.37:589][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 20.4 sec)
+[2024.10.24-14.03.37:592][815]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.24-14.03.37:592][815]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.24-14.03.51:126][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.03.51:168][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.03.51:172][357]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.03.51:172][357]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency108FE441415874E0576D66B89EB3B571.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.03.51:179][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 20.5 sec)
+[2024.10.24-14.03.51:184][357]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.03.51:184][357]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.03.53:887][677]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.03.53:938][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.03.53:941][677]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.03.53:941][677]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency032906784285B4FF1EE283BACB1E866B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.03.53:948][677]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 20.5 sec)
+[2024.10.24-14.03.53:950][677]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.03.53:950][677]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.04.11:118][577]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.04.11:173][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.04.11:177][577]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.04.11:178][577]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency290DF8184EC1F52E4084D692E1E7C3EE.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.04.11:185][577]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 20.6 sec)
+[2024.10.24-14.04.11:188][577]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.04.11:188][577]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.04.36:397][452]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.04.36:454][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.04.36:459][452]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.04.36:460][452]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency5C58479845806205D8CD1398764FFC26.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.04.36:468][452]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 20.7 sec)
+[2024.10.24-14.04.36:473][452]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.04.36:473][452]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.04.37:028][512]BlueprintLog: New page: Compile AC_Currency
+[2024.10.24-14.04.37:125][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.24-14.04.37:661][562]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.04.37:726][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.04.37:730][562]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.04.37:731][562]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency0478F5E94E10BA81F6FA8086641A256A.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.04.37:737][562]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 20.8 sec)
+[2024.10.24-14.04.37:740][562]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.04.37:740][562]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.04.43:273][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.04.43:323][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.04.43:328][185]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.04.43:329][185]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency0AB1B7F14B1869053CE1D8A6DC302EE4.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.04.43:336][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 20.8 sec)
+[2024.10.24-14.04.43:339][185]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.04.43:339][185]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.04.48:773][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.24-14.04.48:803][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.10.24-14.04.48:808][796]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.10.24-14.04.48:808][796]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyB28FAA284C2B91E8778F37BDA239C75B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.10.24-14.04.48:816][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 20.9 sec)
+[2024.10.24-14.04.48:830][796]AssetCheck: New page: Asset Save: AC_Currency
+[2024.10.24-14.04.48:830][796]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.10.24-14.04.49:847][916]BlueprintLog: New page: Compile AC_Currency
+[2024.10.24-14.04.49:878][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.24-14.04.51:092][  8]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.24-14.04.51:098][  8]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.24-14.04.51:098][  8]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.10.24-14.04.51:100][  8]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 89 ms)
+[2024.10.24-14.04.51:101][  8]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.24-14.04.51:101][  8]LogPlayLevel: [PlayLevel] Compiling BP_Element before play...
+[2024.10.24-14.04.51:140][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.24-14.04.51:145][  8]LogPlayLevel: PlayLevel: Blueprint regeneration took 44 ms (1 blueprints)
+[2024.10.24-14.04.51:145][  8]PIE: New page: PIE session: FirstPersonMap (24 Oct 2024, 16:04:51)
+[2024.10.24-14.04.51:182][  8]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.04.51:185][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002959s)
+[2024.10.24-14.04.51:185][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003015s)
+[2024.10.24-14.04.51:200][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.24-14.04.51:201][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.24-14.04.51:201][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.24-14.04.51:201][  8]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.24-14.04.51:202][  8]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.24-14.04.51:202][  8]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.24-14.04.51:202][  8]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.24-14.04.51:202][  8]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.24-14.04.51:203][  8]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.24-14.04.51:203][  8]LogWorldPartition: Display: WorldPartition initialize took 654 us (total: 143 ms)
+[2024.10.24-14.04.51:203][  8]LogPlayLevel: PIE: World Init took: (0.002026s)
+[2024.10.24-14.04.51:203][  8]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2024.10.24-14.04.51:203][  8]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.24-14.04.51:203][  8]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.24-14.04.51:203][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.24-14.04.51:203][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.24-14.04.51:203][  8]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.24-14.04.51:203][  8]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.24-14.04.51:203][  8]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.24-14.04.51:203][  8]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.24-14.04.51:203][  8]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.24-14.04.51:203][  8]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.24-14.04.51:203][  8]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.24-14.04.51:206][  8]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.24-14.04.51:236][  8]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.24-14.04.51:236][  8]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.24-14.04.51:236][  8]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.24-14.04.51:236][  8]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.24-14.04.51:236][  8]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2024.10.24-14.04.51:236][  8]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=68
+[2024.10.24-14.04.51:238][  8]LogInit: FAudioDevice initialized with ID 68.
+[2024.10.24-14.04.51:238][  8]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2024.10.24-14.04.51:238][  8]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2024.10.24-14.04.51:238][  8]LogAudio: Display: Audio Device (ID: 68) registered with world 'FirstPersonMap'.
+[2024.10.24-14.04.51:238][  8]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 68
+[2024.10.24-14.04.51:241][  8]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.24-14.04.51:241][  8]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.10.24-15.04.51
+[2024.10.24-14.04.51:241][  8]LogWorld: Bringing up level for play took: 0.000872
+[2024.10.24-14.04.51:243][  8]LogOnline: OSS: Created online subsystem instance for: :Context_86
+[2024.10.24-14.04.51:246][  8]PIE: Server logged in
+[2024.10.24-14.04.51:247][  8]PIE: Play in editor total start time 0.148 seconds.
+[2024.10.24-14.09.28:236][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.09.28:236][779]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.10.24-14.09.28:236][779]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.24-14.09.28:236][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.09.28:237][779]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.24-14.09.28:240][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.24-14.09.28:242][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.24-14.09.28:253][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.24-14.09.28:253][779]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 68
+[2024.10.24-14.09.28:253][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2024.10.24-14.09.28:254][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2024.10.24-14.09.28:260][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.24-14.09.28:316][780]LogPlayLevel: Display: Destroying online subsystem :Context_86
