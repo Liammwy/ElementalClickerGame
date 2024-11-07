@@ -14548,3 +14548,496 @@ Script Stack (0 frames) :
 [2024.11.07-14.57.06:112][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 29.1 sec)
 [2024.11.07-14.57.06:116][486]AssetCheck: New page: Asset Save: AC_UpgradeSystem
 [2024.11.07-14.57.06:116][486]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-14.57.29:837][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.57.29:864][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-14.57.29:873][ 21]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-14.57.29:874][ 21]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem7B7FA74B4F0A0F8BB29875A027A7A196.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-14.57.29:881][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 29.1 sec)
+[2024.11.07-14.57.29:883][ 21]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-14.57.29:883][ 21]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-14.57.30:925][143]BlueprintLog: New page: Compile AC_UpgradeSystem
+[2024.11.07-14.57.30:954][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.07-14.57.31:818][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.57.31:868][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-14.57.31:877][233]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-14.57.31:878][233]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem69CB70BD4C79ECE959B99B9337A69A0F.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-14.57.31:884][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 29.2 sec)
+[2024.11.07-14.57.31:886][233]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-14.57.31:886][233]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-14.57.34:257][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.57.34:319][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-14.57.34:328][515]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-14.57.34:328][515]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem994192594E42918CDCAAE6BDBDF1F659.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-14.57.34:335][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 29.3 sec)
+[2024.11.07-14.57.34:338][515]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-14.57.34:338][515]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-14.57.35:311][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.57.35:370][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-14.57.35:378][632]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-14.57.35:379][632]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem8E98E1F441D4DA886B3124B7FF64A9FE.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-14.57.35:386][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 29.3 sec)
+[2024.11.07-14.57.35:388][632]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-14.57.35:388][632]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-14.58.09:295][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.58.09:339][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-14.58.09:361][392]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-14.58.09:361][392]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop7DDE455A405531E17D3E09912A295834.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-14.58.09:368][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 29.4 sec)
+[2024.11.07-14.58.09:371][392]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-14.58.09:371][392]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-14.58.23:890][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.58.23:941][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-14.58.23:967][ 20]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-14.58.23:967][ 20]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop96CD520444FA5D89B9CDBAA534F05F6C.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-14.58.23:975][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 29.5 sec)
+[2024.11.07-14.58.23:976][ 20]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-14.58.23:976][ 20]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-14.58.24:562][ 82]BlueprintLog: New page: Compile WBP_MainShop
+[2024.11.07-14.58.24:566][ 82]LogBlueprint: Error: [AssetLog] D:\ElementalClickerGame\ElementalClickerGame\Content\Blueprints\UI\Shop\WBP_MainShop.uasset: [Compiler] This blueprint (self) is not a AC_UpgradeSystem_C, therefore ' Target ' must have a connection.
+[2024.11.07-14.58.24:600][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.07-14.58.33:024][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.58.33:054][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-14.58.33:075][ 48]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-14.58.33:076][ 48]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop7B2114644CCF68D344A79D8CB6C99906.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-14.58.33:083][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 29.6 sec)
+[2024.11.07-14.58.33:086][ 48]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-14.58.33:086][ 48]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-14.58.33:827][131]BlueprintLog: New page: Compile WBP_MainShop
+[2024.11.07-14.58.33:859][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.11.07-14.58.34:686][206]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.58.34:738][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-14.58.34:759][206]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-14.58.34:760][206]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop573B81494434EFC063F249A29FF6EA80.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-14.58.34:768][206]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 29.6 sec)
+[2024.11.07-14.58.34:773][206]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-14.58.34:773][206]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-14.58.42:856][110]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.11.07-14.58.42:856][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.07-14.58.42:856][110]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.07-14.58.44:200][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.58.44:236][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Element" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset" SILENT=true
+[2024.11.07-14.58.44:265][245]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Element
+[2024.11.07-14.58.44:265][245]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/BP_Element8033E1A14BC6F59A41FD3CB2EB9BB6BA.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/BP_Element.uasset'
+[2024.11.07-14.58.44:273][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 29.7 sec)
+[2024.11.07-14.58.44:276][245]AssetCheck: New page: Asset Save: BP_Element
+[2024.11.07-14.58.44:276][245]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Element.BP_Element
+[2024.11.07-14.58.55:845][589]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.11.07-14.58.55:846][589]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.07-14.58.55:846][589]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.07-14.59.04:604][589]BlueprintLog: New page: Compile AC_Currency
+[2024.11.07-14.59.04:648][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.07-14.59.04:830][589]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.59.04:887][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.11.07-14.59.04:893][589]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.11.07-14.59.04:894][589]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency7162EC7A4C1448B1D8FCA5B9F54905F7.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.11.07-14.59.04:901][589]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 29.8 sec)
+[2024.11.07-14.59.04:908][589]AssetCheck: New page: Asset Save: AC_Currency
+[2024.11.07-14.59.04:908][589]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.11.07-14.59.05:547][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.59.05:609][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.11.07-14.59.05:614][656]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.11.07-14.59.05:615][656]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency87A89ED94D800D43F834079EF1D0D09C.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.11.07-14.59.05:622][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 29.9 sec)
+[2024.11.07-14.59.05:624][656]AssetCheck: New page: Asset Save: AC_Currency
+[2024.11.07-14.59.05:624][656]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.11.07-14.59.42:853][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.59.42:912][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.11.07-14.59.42:918][762]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.11.07-14.59.42:919][762]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_Currency14A299B444B7E24D8DA02B93A511EAA8.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.11.07-14.59.42:925][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 29.9 sec)
+[2024.11.07-14.59.42:930][762]AssetCheck: New page: Asset Save: AC_Currency
+[2024.11.07-14.59.42:930][762]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.11.07-14.59.43:584][839]BlueprintLog: New page: Compile AC_Currency
+[2024.11.07-14.59.43:618][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.11.07-14.59.44:243][903]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.59.44:292][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.11.07-14.59.44:296][903]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.11.07-14.59.44:297][903]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyB11A51A94DD6DA2C3CDCB5B575856937.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.11.07-14.59.44:302][903]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 30.0 sec)
+[2024.11.07-14.59.44:303][903]AssetCheck: New page: Asset Save: AC_Currency
+[2024.11.07-14.59.44:303][903]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.11.07-14.59.47:738][311]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.59.47:775][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.11.07-14.59.47:779][311]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.11.07-14.59.47:780][311]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyDFF7016242323AE0E8E70A9641E64DA2.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.11.07-14.59.47:787][311]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 30.0 sec)
+[2024.11.07-14.59.47:791][311]AssetCheck: New page: Asset Save: AC_Currency
+[2024.11.07-14.59.47:792][311]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.11.07-14.59.49:034][455]BlueprintLog: New page: Compile AC_Currency
+[2024.11.07-14.59.49:067][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.11.07-14.59.49:922][545]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-14.59.49:958][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Currency" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset" SILENT=true
+[2024.11.07-14.59.49:962][545]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_Currency
+[2024.11.07-14.59.49:962][545]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_CurrencyF6B276EF4EABC907E9B46BAFF7D5C0FF.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_Currency.uasset'
+[2024.11.07-14.59.49:969][545]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 30.1 sec)
+[2024.11.07-14.59.49:972][545]AssetCheck: New page: Asset Save: AC_Currency
+[2024.11.07-14.59.49:972][545]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_Currency.AC_Currency
+[2024.11.07-15.00.12:794][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.00.12:848][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.00.12:856][ 78]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.00.12:856][ 78]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem02F546A94B24FCB3BB6F9FA80C89E215.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.00.12:863][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 30.2 sec)
+[2024.11.07-15.00.12:865][ 78]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.00.12:865][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.00.13:622][169]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.00.13:676][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.00.13:685][169]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.00.13:686][169]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem2C33EDC640623CC532B3FAA19A9314C0.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.00.13:692][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 30.2 sec)
+[2024.11.07-15.00.13:694][169]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.00.13:694][169]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.00.14:387][251]BlueprintLog: New page: Compile AC_UpgradeSystem
+[2024.11.07-15.00.14:441][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.07-15.00.15:070][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.00.15:111][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.00.15:119][310]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.00.15:120][310]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystemAC6D38D549F99E7BFA0454AE2D3F48BB.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.00.15:126][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 30.3 sec)
+[2024.11.07-15.00.15:129][310]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.00.15:129][310]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.00.33:255][358]LogEditorTransaction: Undo Add Node
+[2024.11.07-15.00.59:399][318]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.00.59:446][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.00.59:457][318]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.00.59:460][318]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystemF5329BD74F9283907CC84EA6632A7695.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.00.59:472][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 30.4 sec)
+[2024.11.07-15.00.59:475][318]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.00.59:475][318]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.00.59:923][370]BlueprintLog: New page: Compile AC_UpgradeSystem
+[2024.11.07-15.00.59:952][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.11.07-15.01.00:603][438]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.01.00:668][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.01.00:677][438]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.01.00:678][438]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem9E9FCFE9400608778A91149594C2CCB5.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.01.00:684][438]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 30.4 sec)
+[2024.11.07-15.01.00:687][438]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.01.00:687][438]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.01.34:269][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.01.34:317][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.01.34:328][374]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.01.34:329][374]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem68B6FB294C35FD70D22190904B9251E9.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.01.34:335][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 30.5 sec)
+[2024.11.07-15.01.34:338][374]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.01.34:338][374]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.01.35:166][468]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.01.35:218][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.01.35:228][468]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.01.35:229][468]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem9A628EE145F4AD9609AC618923C96404.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.01.35:236][468]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 30.6 sec)
+[2024.11.07-15.01.35:239][468]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.01.35:239][468]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.01.52:546][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.01.52:604][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.01.52:613][459]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.01.52:614][459]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem4A2B5F6A4B83975107AB40AC445FA93F.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.01.52:621][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 30.6 sec)
+[2024.11.07-15.01.52:624][459]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.01.52:624][459]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.02.15:881][108]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.02.15:940][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.02.15:951][108]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.02.15:951][108]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystemDA0DFD37428CA861E1A08E8E93398C92.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.02.15:958][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 30.7 sec)
+[2024.11.07-15.02.15:963][108]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.02.15:963][108]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.02.31:163][759]BlueprintLog: New page: Compile AC_UpgradeSystem
+[2024.11.07-15.02.31:192][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.07-15.02.31:259][759]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.02.31:305][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.02.31:316][759]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.02.31:317][759]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem35B6C39D4130AEF545423086958C76E2.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.02.31:324][759]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 30.8 sec)
+[2024.11.07-15.02.31:327][759]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.02.31:327][759]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.02.31:827][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.02.31:891][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.02.31:902][812]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.02.31:902][812]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem3E665C7E46BDF39BA30D3FB69608506F.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.02.31:910][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 30.9 sec)
+[2024.11.07-15.02.31:913][812]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.02.31:913][812]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.02.35:282][200]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.02.35:321][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.02.35:332][200]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.02.35:332][200]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystem061BB6064D1E6B238FD379AF104044FF.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.02.35:340][200]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 30.9 sec)
+[2024.11.07-15.02.35:344][200]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.02.35:344][200]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.02.36:454][323]BlueprintLog: New page: Compile AC_UpgradeSystem
+[2024.11.07-15.02.36:488][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.07-15.02.37:295][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.02.37:337][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_UpgradeSystem" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset" SILENT=true
+[2024.11.07-15.02.37:347][407]LogSavePackage: Moving output files for package: /Game/Blueprints/AC_UpgradeSystem
+[2024.11.07-15.02.37:348][407]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/AC_UpgradeSystemC1B0B3CD4EBAC79BADD115A5D6CC7BED.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/AC_UpgradeSystem.uasset'
+[2024.11.07-15.02.37:356][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 31.0 sec)
+[2024.11.07-15.02.37:358][407]AssetCheck: New page: Asset Save: AC_UpgradeSystem
+[2024.11.07-15.02.37:358][407]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AC_UpgradeSystem.AC_UpgradeSystem
+[2024.11.07-15.02.46:173][415]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.02.46:227][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.02.46:248][415]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.02.46:248][415]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShopE87FAB8149F8AB753604AAA84252F4D0.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.02.46:256][415]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 31.1 sec)
+[2024.11.07-15.02.46:259][415]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.02.46:259][415]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.02.46:843][485]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.02.46:908][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.02.46:929][485]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.02.46:930][485]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShopC8D024C74109D649C730B4B781604615.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.02.46:937][485]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 31.2 sec)
+[2024.11.07-15.02.46:939][485]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.02.46:939][485]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.02.58:085][772]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.02.58:124][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.02.58:145][772]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.02.58:146][772]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShopE96C082A450A69C7305E6DB0B5DB598A.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.02.58:153][772]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 31.2 sec)
+[2024.11.07-15.02.58:156][772]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.02.58:156][772]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.03.14:251][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.03.14:292][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.03.14:316][656]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.03.14:317][656]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop11775E9C4EEC543C2AD5989034709131.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.03.14:325][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 31.3 sec)
+[2024.11.07-15.03.14:329][656]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.03.14:329][656]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.03.37:986][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.03.38:027][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.03.38:050][344]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.03.38:051][344]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop97C8CDB24D7242F06D013481394BFC06.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.03.38:058][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 31.4 sec)
+[2024.11.07-15.03.38:063][344]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.03.38:063][344]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.03.39:051][457]BlueprintLog: New page: Compile WBP_MainShop
+[2024.11.07-15.03.39:088][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.07-15.03.39:744][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.03.39:776][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.03.39:799][516]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.03.39:800][516]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop72F85C0A45531F54086456A477E8554D.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.03.39:807][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 31.4 sec)
+[2024.11.07-15.03.39:810][516]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.03.39:810][516]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.04.09:222][930]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.04.09:283][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.04.09:306][930]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.04.09:306][930]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop184FE5F74F4F1EA082C538A5F93341CB.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.04.09:314][930]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 31.5 sec)
+[2024.11.07-15.04.09:317][930]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.04.09:317][930]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.04.09:842][993]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.04.09:878][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.04.09:900][993]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.04.09:901][993]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop827312864FFAB2228DBE848904A83274.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.04.09:908][993]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 31.6 sec)
+[2024.11.07-15.04.09:912][993]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.04.09:912][993]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.04.10:612][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.04.10:642][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.04.10:666][ 77]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.04.10:666][ 77]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop2D0B885D4FB930D7B84984854ED6821D.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.04.10:673][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 31.7 sec)
+[2024.11.07-15.04.10:677][ 77]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.04.10:677][ 77]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.04.22:990][490]Cmd: TRANSACTION UNDO
+[2024.11.07-15.04.22:990][490]LogEditorTransaction: Undo Rename Widget
+[2024.11.07-15.04.37:605][ 78]BlueprintLog: New page: Compile WBP_MainShop
+[2024.11.07-15.04.37:645][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.07-15.04.37:731][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.04.37:797][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.04.37:822][ 78]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.04.37:823][ 78]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShopA6BEBADF4497ACC27CF1CABDDD32C627.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.04.37:830][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 31.8 sec)
+[2024.11.07-15.04.37:871][ 78]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.04.37:872][ 78]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.04.38:044][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.04.38:077][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.04.38:101][ 82]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.04.38:102][ 82]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop7443D44C469B6B3C41BA83A683565829.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.04.38:108][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 31.8 sec)
+[2024.11.07-15.04.38:113][ 82]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.04.38:113][ 82]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.04.55:499][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.04.55:551][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.04.55:574][974]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.04.55:575][974]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop0F47D48E481DBCBBCE2AB8B966C30965.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.04.55:583][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 31.9 sec)
+[2024.11.07-15.04.55:585][974]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.04.55:587][974]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.04.56:097][ 28]BlueprintLog: New page: Compile WBP_MainShop
+[2024.11.07-15.04.56:137][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.07-15.04.56:798][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.04.56:852][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.04.56:877][ 94]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.04.56:877][ 94]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop3B6CB0724C947C798C191E906FD38FA2.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.04.56:884][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 32.0 sec)
+[2024.11.07-15.04.56:887][ 94]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.04.56:887][ 94]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.05.06:667][201]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.05.06:720][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.05.06:743][201]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.05.06:743][201]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop1328CA2B41F4670A04F359A75742764B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.05.06:751][201]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 32.1 sec)
+[2024.11.07-15.05.06:755][201]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.05.06:755][201]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.05.13:651][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.05.13:703][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.05.13:726][969]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.05.13:727][969]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShop187A056C4100DD0375DB39AD55F5311B.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.05.13:735][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 32.2 sec)
+[2024.11.07-15.05.13:737][969]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.05.13:737][969]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.05.14:224][ 26]BlueprintLog: New page: Compile WBP_MainShop
+[2024.11.07-15.05.14:261][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.07-15.05.14:960][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-15.05.15:020][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Shop/WBP_MainShop" FILE="D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset" SILENT=true
+[2024.11.07-15.05.15:043][ 85]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shop/WBP_MainShop
+[2024.11.07-15.05.15:043][ 85]LogSavePackage: Moving 'D:/ElementalClickerGame/ElementalClickerGame/Saved/WBP_MainShopD401E90B4F65B9EDDEB2F79442092DBC.tmp' to 'D:/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/UI/Shop/WBP_MainShop.uasset'
+[2024.11.07-15.05.15:050][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 32.3 sec)
+[2024.11.07-15.05.15:054][ 85]AssetCheck: New page: Asset Save: WBP_MainShop
+[2024.11.07-15.05.15:054][ 85]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/Shop/WBP_MainShop.WBP_MainShop
+[2024.11.07-15.05.15:967][174]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.07-15.05.15:974][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.07-15.05.15:974][174]PIE: New page: PIE session: StarterMenu (7 Nov 2024, 15:05:15)
+[2024.11.07-15.05.15:998][174]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StarterMenu
+[2024.11.07-15.05.15:999][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001233s)
+[2024.11.07-15.05.15:999][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StarterMenu.StarterMenu to /Game/Levels/UEDPIE_0_StarterMenu.StarterMenu (0.001281s)
+[2024.11.07-15.05.16:014][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.07-15.05.16:020][174]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.07-15.05.16:020][174]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.07-15.05.16:021][174]LogAIModule: Creating AISystem for world StarterMenu
+[2024.11.07-15.05.16:021][174]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2024.11.07-15.05.16:021][174]LogAudio: Display: Creating Audio Device:                 Id: 95, Scope: Unique, Realtime: True
+[2024.11.07-15.05.16:021][174]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.07-15.05.16:021][174]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.07-15.05.16:021][174]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.07-15.05.16:021][174]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.07-15.05.16:021][174]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.07-15.05.16:021][174]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.07-15.05.16:021][174]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.07-15.05.16:021][174]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.07-15.05.16:022][174]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.07-15.05.16:022][174]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.07-15.05.16:022][174]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.07-15.05.16:024][174]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.07-15.05.16:052][174]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.07-15.05.16:052][174]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.07-15.05.16:053][174]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.07-15.05.16:053][174]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.07-15.05.16:053][174]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=95
+[2024.11.07-15.05.16:053][174]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=95
+[2024.11.07-15.05.16:054][174]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=95
+[2024.11.07-15.05.16:054][174]LogInit: FAudioDevice initialized with ID 95.
+[2024.11.07-15.05.16:054][174]LogAudio: Display: Audio Device (ID: 95) registered with world 'StarterMenu'.
+[2024.11.07-15.05.16:054][174]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=95
+[2024.11.07-15.05.16:054][174]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 95
+[2024.11.07-15.05.16:056][174]LogLoad: Game class is 'MenuGamemode_C'
+[2024.11.07-15.05.16:057][174]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StarterMenu.StarterMenu up for play (max tick rate 0) at 2024.11.07-15.05.16
+[2024.11.07-15.05.16:057][174]LogWorld: Bringing up level for play took: 0.000265
+[2024.11.07-15.05.16:058][174]LogOnline: OSS: Created online subsystem instance for: :Context_137
+[2024.11.07-15.05.16:059][174]PIE: Server logged in
+[2024.11.07-15.05.16:060][174]PIE: Play in editor total start time 0.086 seconds.
+[2024.11.07-15.05.16:687][243]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2024.11.07-15.05.16:687][243]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2024.11.07-15.05.16:687][243]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_StarterMenu
+[2024.11.07-15.05.16:687][243]LogWorld: UWorld::CleanupWorld for StarterMenu, bSessionEnded=true, bCleanupResources=true
+[2024.11.07-15.05.16:687][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-15.05.16:728][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.07-15.05.16:730][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.07-15.05.16:759][243]LogAudio: Display: Audio Device (ID: 95) registered with world 'FirstPersonMap'.
+[2024.11.07-15.05.16:759][243]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.07-15.05.16:759][243]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.07-15.05.16:759][243]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.07-15.05.16:760][243]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.07-15.05.16:760][243]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.07-15.05.16:760][243]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.11.07-15.05.16:760][243]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.07-15.05.16:760][243]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.07-15.05.16:816][243]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 55 ms (total: 3.08 sec)
+[2024.11.07-15.05.16:816][243]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.07-15.05.16:816][243]LogWorldPartition: Display: WorldPartition initialize took 56 ms (total: 3.33 sec)
+[2024.11.07-15.05.16:817][243]LogPlayLevel: PIE: World Init took: (0.057348s)
+[2024.11.07-15.05.16:817][243]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.07-15.05.16:819][243]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.07-15.05.16
+[2024.11.07-15.05.16:819][243]LogWorld: Bringing up level for play took: 0.001840
+[2024.11.07-15.05.16:821][243]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.05.16:821][243]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.05.16:821][243]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.07-15.05.16:821][243]LogLoad: Took 0.133759 seconds to LoadMap(/Game/FirstPerson/Maps/FirstPersonMap)
+[2024.11.07-15.05.17:234][286]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.05.17:234][286]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.05.17:900][366]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.05.17:900][366]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.05.17:900][366]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.05.20:349][659]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.05.20:349][659]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.05.39:911][926]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.05.39:911][926]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.05.39:911][926]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.05.41:619][126]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.05.41:620][126]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.05.53:875][559]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.05.53:876][559]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.05.53:876][559]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.05.55:525][751]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.05.55:525][751]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.06.00:544][330]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.06.00:544][330]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.06.00:544][330]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.06.02:230][526]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.06.02:230][526]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.06.07:876][177]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.06.07:876][177]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.06.07:876][177]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.06.09:365][350]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.06.09:365][350]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.06.20:513][633]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.06.20:513][633]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.06.20:513][633]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.06.23:394][967]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.06.23:394][967]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.06.33:252][113]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.06.33:252][113]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.06.33:252][113]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.06.35:264][347]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.06.35:264][347]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.06.41:691][ 87]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.06.41:691][ 87]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.06.41:691][ 87]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.06.44:146][372]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.06.44:146][372]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.06.54:770][592]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.06.54:770][592]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.06.54:770][592]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.06.56:306][770]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.06.56:306][770]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.07.03:390][582]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.07.03:390][582]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.07.03:390][582]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.07.06:158][902]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.07.06:158][902]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.07.16:161][ 50]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.07.16:161][ 50]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.07.16:161][ 50]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.07.19:162][399]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.07.19:163][399]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.07.21:398][656]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.07-15.07.21:398][656]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.07.21:398][656]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.07-15.07.22:804][819]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.07.22:804][819]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.07-15.07.26:262][217]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.07-15.07.26:262][217]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.07-15.07.27:180][323]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.07-15.07.27:180][323]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.07-15.07.27:625][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.07-15.07.27:625][372]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.07-15.07.27:626][372]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.07-15.07.27:626][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-15.07.27:626][372]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.07-15.07.27:629][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.07-15.07.27:633][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-15.07.27:645][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.07-15.07.27:645][372]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 95
+[2024.11.07-15.07.27:645][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=95
+[2024.11.07-15.07.27:646][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=95
+[2024.11.07-15.07.27:655][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.11.07-15.07.27:730][374]LogPlayLevel: Display: Destroying online subsystem :Context_137
