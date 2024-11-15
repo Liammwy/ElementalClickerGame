@@ -4987,3 +4987,1437 @@ Make sure 'WBP_ItemSlot_C' has been compiled for  Get stateType
 [2024.11.15-18.24.56:213][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
 [2024.11.15-18.24.56:234][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
 [2024.11.15-18.24.56:300][511]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.11.15-18.29.49:635][829]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-18.29.49:679][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.11.15-18.29.49:739][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-18.29.49:806][829]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-18.29.49:807][829]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotB68CFD6A4DFF27C95A98CBA8150A7137.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-18.29.49:815][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 10.2 sec)
+[2024.11.15-18.29.49:818][829]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-18.29.49:818][829]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-18.29.50:481][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-18.29.50:534][886]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-18.29.50:534][886]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotF5E3B1F54FF6F951FB7AF88D5BCB4E73.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-18.29.50:542][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 10.3 sec)
+[2024.11.15-18.29.50:545][886]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-18.29.50:545][886]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-18.29.52:046][ 37]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-18.29.52:054][ 37]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-18.29.52:054][ 37]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-18.29.52:055][ 37]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 35 ms)
+[2024.11.15-18.29.52:055][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-18.29.52:055][ 37]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 18:29:52)
+[2024.11.15-18.29.52:086][ 37]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-18.29.52:089][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002854s)
+[2024.11.15-18.29.52:089][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002895s)
+[2024.11.15-18.29.52:105][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.15-18.29.52:107][ 37]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-18.29.52:107][ 37]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-18.29.52:108][ 37]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-18.29.52:109][ 37]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-18.29.52:109][ 37]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-18.29.52:109][ 37]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-18.29.52:109][ 37]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-18.29.52:109][ 37]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-18.29.52:109][ 37]LogWorldPartition: Display: WorldPartition initialize took 811 us (total: 159 ms)
+[2024.11.15-18.29.52:109][ 37]LogPlayLevel: PIE: World Init took: (0.002080s)
+[2024.11.15-18.29.52:109][ 37]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.11.15-18.29.52:109][ 37]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-18.29.52:109][ 37]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-18.29.52:109][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-18.29.52:109][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-18.29.52:109][ 37]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-18.29.52:109][ 37]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-18.29.52:109][ 37]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-18.29.52:109][ 37]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-18.29.52:110][ 37]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-18.29.52:110][ 37]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-18.29.52:110][ 37]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-18.29.52:112][ 37]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-18.29.52:143][ 37]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-18.29.52:143][ 37]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-18.29.52:143][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-18.29.52:143][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-18.29.52:145][ 37]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.11.15-18.29.52:145][ 37]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.11.15-18.29.52:146][ 37]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.11.15-18.29.52:146][ 37]LogInit: FAudioDevice initialized with ID 27.
+[2024.11.15-18.29.52:146][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.11.15-18.29.52:146][ 37]LogAudio: Display: Audio Device (ID: 27) registered with world 'FirstPersonMap'.
+[2024.11.15-18.29.52:146][ 37]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.11.15-18.29.52:149][ 37]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-18.29.52:150][ 37]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-18.29.52
+[2024.11.15-18.29.52:150][ 37]LogWorld: Bringing up level for play took: 0.001044
+[2024.11.15-18.29.52:153][ 37]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.11.15-18.29.52:156][ 37]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-18.29.52:156][ 37]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-18.29.52:156][ 37]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-18.29.52:156][ 37]PIE: Server logged in
+[2024.11.15-18.29.52:157][ 37]PIE: Play in editor total start time 0.104 seconds.
+[2024.11.15-18.29.53:188][130]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-18.29.53:188][130]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-18.30.02:994][113]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-18.30.02:994][113]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-18.30.02:994][113]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-18.30.12:830][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-18.30.12:830][115]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-18.30.12:831][115]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-18.30.12:831][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-18.30.12:831][115]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-18.30.12:836][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-18.30.12:843][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-18.30.12:861][115]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-18.30.12:862][115]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.11.15-18.30.12:862][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.11.15-18.30.12:864][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.11.15-18.30.12:867][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-18.30.12:872][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.11.15-18.30.12:924][116]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.11.15-19.05.34:942][ 86]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.07.38:333][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.11.15-19.07.38:336][405]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.021
+[2024.11.15-19.07.38:336][405]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Inventory/AC_Inventory] ([2] browsable assets)...
+[2024.11.15-19.07.38:336][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/AC_Inventory]
+[2024.11.15-19.07.38:479][405]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/AC_Inventory_Auto8
+[2024.11.15-19.07.38:479][405]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/AC_Inventory_Auto8C3BDCC104489BF1749F69FBFFD2E98A0.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/Autosaves/Game/Blueprints/Inventory/AC_Inventory_Auto8.uasset'
+[2024.11.15-19.07.38:480][405]LogFileHelpers: Auto-saving content packages took 0.145
+[2024.11.15-19.11.04:086][955]LogDerivedDataCache: C:/Users/liam1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.071 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1265 files in 2194 folders with total size 60 MiB.
+[2024.11.15-19.11.27:696][433]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.11.27:754][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.15-19.11.27:950][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.11.28:024][433]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.11.28:024][433]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot8ADCC2E342FFBB36E8ED758163BA90F2.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.11.28:051][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 10.4 sec)
+[2024.11.15-19.11.28:080][433]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.11.28:080][433]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.11.28:642][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.11.28:703][473]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.11.28:704][473]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotE7389DC3486C1D5A04CDE1A31DEDEED2.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.11.28:711][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 10.5 sec)
+[2024.11.15-19.11.28:712][473]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.11.28:712][473]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.11.29:872][587]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.11.30:030][587]LogSavePackage: Moving output files for package: /Game/Blueprints/Inventory/AC_Inventory
+[2024.11.15-19.11.30:031][587]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/AC_InventoryB62E55C6483123F323A9E288FF5EA52A.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/Blueprints/Inventory/AC_Inventory.uasset'
+[2024.11.15-19.11.30:039][587]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 10.6 sec)
+[2024.11.15-19.11.30:042][587]AssetCheck: New page: Asset Save: AC_Inventory
+[2024.11.15-19.11.30:042][587]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Inventory/AC_Inventory.AC_Inventory
+[2024.11.15-19.11.31:817][767]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.11.31:825][767]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.11.31:825][767]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.11.31:827][767]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 36 ms)
+[2024.11.15-19.11.31:827][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.11.31:827][767]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:11:31)
+[2024.11.15-19.11.31:827][767]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.11.31:830][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003053s)
+[2024.11.15-19.11.31:830][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003090s)
+[2024.11.15-19.11.31:880][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.15-19.11.31:883][767]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.11.31:883][767]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.11.31:884][767]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.11.31:884][767]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.11.31:884][767]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.11.31:884][767]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.11.31:884][767]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.11.31:885][767]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.11.31:885][767]LogWorldPartition: Display: WorldPartition initialize took 856 us (total: 160 ms)
+[2024.11.15-19.11.31:885][767]LogPlayLevel: PIE: World Init took: (0.002106s)
+[2024.11.15-19.11.31:885][767]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.11.15-19.11.31:885][767]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.11.31:885][767]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.11.31:885][767]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.11.31:885][767]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.11.31:885][767]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.11.31:885][767]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.11.31:885][767]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.11.31:885][767]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.11.31:886][767]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.11.31:886][767]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.11.31:886][767]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.11.31:888][767]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.11.31:920][767]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.11.31:920][767]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.11.31:920][767]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.11.31:920][767]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.11.31:921][767]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.11.15-19.11.31:921][767]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.11.15-19.11.31:923][767]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.11.15-19.11.31:923][767]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.11.15-19.11.31:923][767]LogInit: FAudioDevice initialized with ID 28.
+[2024.11.15-19.11.31:923][767]LogAudio: Display: Audio Device (ID: 28) registered with world 'FirstPersonMap'.
+[2024.11.15-19.11.31:923][767]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.11.15-19.11.31:925][767]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.11.31:927][767]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.11.31
+[2024.11.15-19.11.31:927][767]LogWorld: Bringing up level for play took: 0.001029
+[2024.11.15-19.11.31:929][767]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.11.15-19.11.31:932][767]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.11.31:932][767]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.11.31:932][767]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.11.31:932][767]PIE: Server logged in
+[2024.11.15-19.11.31:933][767]PIE: Play in editor total start time 0.108 seconds.
+[2024.11.15-19.11.33:417][900]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.11.33:417][900]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.11.35:896][160]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.11.35:896][160]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.11.35:896][160]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.11.40:372][616]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.11.40:372][616]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.11.42:582][849]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.11.42:582][849]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.11.42:582][849]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.11.46:200][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.11.46:200][199]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.11.46:200][199]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.11.46:200][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.11.46:200][199]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.11.46:203][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.11.46:208][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.11.46:224][199]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.11.46:225][199]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.11.15-19.11.46:225][199]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.11.15-19.11.46:227][199]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.11.15-19.11.46:231][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.11.46:235][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.11.15-19.11.46:315][200]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.11.15-19.12.05:818][283]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.12.05:874][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.15-19.12.06:075][283]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.12.06:155][283]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.12.06:156][283]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot91CC3F9A405255098D9AEBBD4F385A1F.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.12.06:183][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 10.7 sec)
+[2024.11.15-19.12.06:212][283]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.12.06:212][283]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.12.06:620][307]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.12.06:682][307]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.12.06:682][307]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot30C0E4094A2F6496EF3AF4AD2E51146C.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.12.06:689][307]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 10.8 sec)
+[2024.11.15-19.12.06:690][307]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.12.06:690][307]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.12.07:156][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.12.07:211][358]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.12.07:212][358]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot670142F149A98C115FA98C94F2E93899.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.12.07:219][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 10.9 sec)
+[2024.11.15-19.12.07:219][358]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.12.07:219][358]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.12.08:286][453]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.12.08:296][453]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.12.08:296][453]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.12.08:297][453]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 38 ms)
+[2024.11.15-19.12.08:298][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.12.08:298][453]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:12:08)
+[2024.11.15-19.12.08:298][453]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.12.08:302][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004153s)
+[2024.11.15-19.12.08:302][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004195s)
+[2024.11.15-19.12.08:318][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.15-19.12.08:323][453]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.12.08:323][453]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.12.08:323][453]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.12.08:324][453]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.12.08:324][453]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.12.08:324][453]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.12.08:324][453]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.12.08:325][453]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.12.08:325][453]LogWorldPartition: Display: WorldPartition initialize took 940 us (total: 161 ms)
+[2024.11.15-19.12.08:325][453]LogPlayLevel: PIE: World Init took: (0.002446s)
+[2024.11.15-19.12.08:325][453]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.11.15-19.12.08:325][453]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.12.08:325][453]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.12.08:325][453]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.12.08:325][453]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.12.08:325][453]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.12.08:325][453]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.12.08:325][453]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.12.08:325][453]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.12.08:326][453]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.12.08:326][453]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.12.08:326][453]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.12.08:329][453]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.12.08:360][453]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.12.08:361][453]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.12.08:361][453]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.12.08:361][453]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.12.08:361][453]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2024.11.15-19.12.08:361][453]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2024.11.15-19.12.08:363][453]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.11.15-19.12.08:363][453]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2024.11.15-19.12.08:363][453]LogInit: FAudioDevice initialized with ID 29.
+[2024.11.15-19.12.08:363][453]LogAudio: Display: Audio Device (ID: 29) registered with world 'FirstPersonMap'.
+[2024.11.15-19.12.08:363][453]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.11.15-19.12.08:366][453]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.12.08:367][453]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.12.08
+[2024.11.15-19.12.08:367][453]LogWorld: Bringing up level for play took: 0.000988
+[2024.11.15-19.12.08:369][453]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.11.15-19.12.08:372][453]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.12.08:372][453]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.12.08:372][453]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.12.08:372][453]PIE: Server logged in
+[2024.11.15-19.12.08:373][453]PIE: Play in editor total start time 0.077 seconds.
+[2024.11.15-19.12.09:237][529]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.12.09:237][529]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.12.13:712][  4]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.12.13:712][  4]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.12.13:712][  4]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.12.16:560][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.12.16:560][302]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.12.16:560][302]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.12.16:560][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.12.16:560][302]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.12.16:565][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.12.16:570][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.12.16:587][302]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.12.16:588][302]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.11.15-19.12.16:588][302]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.11.15-19.12.16:589][302]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.11.15-19.12.16:593][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.12.16:598][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.15-19.12.16:678][303]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.11.15-19.12.27:712][450]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.12.27:781][450]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.12.27:782][450]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot74D38CC242F79841056BF7BF92A89D81.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.12.27:790][450]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 10.9 sec)
+[2024.11.15-19.12.27:792][450]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.12.27:792][450]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.12.29:522][655]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.12.29:573][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.15-19.12.30:840][769]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.12.30:901][769]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.12.30:901][769]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotDE2C8D0046BB5C80BFC699AD8A892A4A.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.12.30:908][769]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 11.0 sec)
+[2024.11.15-19.12.30:910][769]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.12.30:910][769]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.13.05:266][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.13.05:331][276]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.13.05:331][276]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot8D9B22EE429B0CABDC58D8B2B737EE08.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.13.05:340][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 11.1 sec)
+[2024.11.15-19.13.05:342][276]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.13.05:342][276]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.13.06:095][359]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.13.06:149][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.11.15-19.13.07:094][438]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.13.07:150][438]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.13.07:151][438]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot79DFAECE4856093449B740881B939D18.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.13.07:158][438]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 11.2 sec)
+[2024.11.15-19.13.07:160][438]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.13.07:160][438]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.13.09:194][631]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.13.09:200][631]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.13.09:200][631]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.13.09:201][631]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 39 ms)
+[2024.11.15-19.13.09:202][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.13.09:202][631]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:13:09)
+[2024.11.15-19.13.09:202][631]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.13.09:205][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002716s)
+[2024.11.15-19.13.09:205][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002742s)
+[2024.11.15-19.13.09:221][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.15-19.13.09:224][631]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.13.09:224][631]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.13.09:225][631]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.13.09:225][631]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.13.09:225][631]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.13.09:225][631]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.13.09:225][631]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.13.09:226][631]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.13.09:226][631]LogWorldPartition: Display: WorldPartition initialize took 809 us (total: 162 ms)
+[2024.11.15-19.13.09:226][631]LogPlayLevel: PIE: World Init took: (0.001916s)
+[2024.11.15-19.13.09:226][631]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2024.11.15-19.13.09:226][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.13.09:226][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.13.09:226][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.13.09:226][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.13.09:226][631]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.13.09:226][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.13.09:226][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.13.09:226][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.13.09:227][631]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.13.09:227][631]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.13.09:227][631]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.13.09:228][631]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.13.09:259][631]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.13.09:259][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.13.09:259][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.13.09:259][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.13.09:260][631]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2024.11.15-19.13.09:260][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2024.11.15-19.13.09:262][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2024.11.15-19.13.09:262][631]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2024.11.15-19.13.09:262][631]LogInit: FAudioDevice initialized with ID 30.
+[2024.11.15-19.13.09:262][631]LogAudio: Display: Audio Device (ID: 30) registered with world 'FirstPersonMap'.
+[2024.11.15-19.13.09:262][631]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2024.11.15-19.13.09:265][631]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.13.09:266][631]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.13.09
+[2024.11.15-19.13.09:266][631]LogWorld: Bringing up level for play took: 0.001051
+[2024.11.15-19.13.09:268][631]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.11.15-19.13.09:271][631]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.13.09:271][631]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.13.09:271][631]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.13.09:271][631]PIE: Server logged in
+[2024.11.15-19.13.09:272][631]PIE: Play in editor total start time 0.072 seconds.
+[2024.11.15-19.13.10:951][795]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.13.10:951][795]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.13.15:160][244]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.13.15:160][244]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.13.15:160][244]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.13.26:915][502]LogViewport: Scene viewport resized to 2249x1235, mode Windowed.
+[2024.11.15-19.13.26:936][503]LogViewport: Scene viewport resized to 2261x1235, mode Windowed.
+[2024.11.15-19.13.26:981][504]LogViewport: Scene viewport resized to 2296x1235, mode Windowed.
+[2024.11.15-19.13.27:023][505]LogViewport: Scene viewport resized to 2321x1235, mode Windowed.
+[2024.11.15-19.13.27:079][506]LogViewport: Scene viewport resized to 2352x1235, mode Windowed.
+[2024.11.15-19.13.27:164][507]LogViewport: Scene viewport resized to 2397x1235, mode Windowed.
+[2024.11.15-19.13.27:223][508]LogViewport: Scene viewport resized to 2431x1235, mode Windowed.
+[2024.11.15-19.13.27:268][509]LogViewport: Scene viewport resized to 2446x1235, mode Windowed.
+[2024.11.15-19.13.27:324][510]LogViewport: Scene viewport resized to 2453x1235, mode Windowed.
+[2024.11.15-19.13.27:481][521]LogViewport: Scene viewport resized to 2452x1235, mode Windowed.
+[2024.11.15-19.13.27:502][522]LogViewport: Scene viewport resized to 2444x1235, mode Windowed.
+[2024.11.15-19.13.27:550][523]LogViewport: Scene viewport resized to 2380x1235, mode Windowed.
+[2024.11.15-19.13.27:582][524]LogViewport: Scene viewport resized to 2326x1235, mode Windowed.
+[2024.11.15-19.13.27:617][525]LogViewport: Scene viewport resized to 2299x1235, mode Windowed.
+[2024.11.15-19.13.27:663][526]LogViewport: Scene viewport resized to 2291x1235, mode Windowed.
+[2024.11.15-19.13.27:694][527]LogViewport: Scene viewport resized to 2278x1235, mode Windowed.
+[2024.11.15-19.13.27:727][528]LogViewport: Scene viewport resized to 2267x1235, mode Windowed.
+[2024.11.15-19.13.27:761][529]LogViewport: Scene viewport resized to 2255x1235, mode Windowed.
+[2024.11.15-19.13.27:793][530]LogViewport: Scene viewport resized to 2252x1235, mode Windowed.
+[2024.11.15-19.13.27:876][537]LogViewport: Scene viewport resized to 2249x1235, mode Windowed.
+[2024.11.15-19.13.27:897][538]LogViewport: Scene viewport resized to 2243x1235, mode Windowed.
+[2024.11.15-19.13.27:939][539]LogViewport: Scene viewport resized to 2221x1235, mode Windowed.
+[2024.11.15-19.13.27:972][540]LogViewport: Scene viewport resized to 2207x1235, mode Windowed.
+[2024.11.15-19.13.28:007][541]LogViewport: Scene viewport resized to 2201x1235, mode Windowed.
+[2024.11.15-19.13.30:359][786]LogBlueprintUserMessages: [AC_Inventory] Nothing left in inventory!
+[2024.11.15-19.13.32:654][ 35]LogBlueprintUserMessages: [AC_Inventory] Nothing left in inventory!
+[2024.11.15-19.13.36:250][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.13.36:250][403]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.13.36:250][403]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.13.36:250][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.13.36:250][403]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.13.36:256][403]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.13.36:262][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.13.36:280][403]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.13.36:280][403]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2024.11.15-19.13.36:280][403]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.11.15-19.13.36:282][403]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.11.15-19.13.36:289][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.13.36:294][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.11.15-19.13.36:374][404]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.11.15-19.14.25:483][542]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.14.25:536][542]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_CraftingSlot
+[2024.11.15-19.14.25:536][542]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CraftingSlotC2CDE4DA4461997A6BBCB4A4E5E252A6.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_CraftingSlot.uasset'
+[2024.11.15-19.14.25:543][542]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 11.2 sec)
+[2024.11.15-19.14.25:545][542]AssetCheck: New page: Asset Save: WBP_CraftingSlot
+[2024.11.15-19.14.25:545][542]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot
+[2024.11.15-19.14.28:932][884]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.14.28:994][884]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.14.28:995][884]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotA5504ACC440D4434178DC193C9B4880D.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.14.29:002][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 11.3 sec)
+[2024.11.15-19.14.29:004][884]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.14.29:004][884]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.14.29:990][999]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.14.30:057][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.11.15-19.14.51:070][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.14.51:126][191]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_CraftingSlot
+[2024.11.15-19.14.51:126][191]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CraftingSlotB47829F444661FD2032E50B5F7D13A07.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_CraftingSlot.uasset'
+[2024.11.15-19.14.51:133][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 11.3 sec)
+[2024.11.15-19.14.51:135][191]AssetCheck: New page: Asset Save: WBP_CraftingSlot
+[2024.11.15-19.14.51:135][191]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot
+[2024.11.15-19.14.52:312][319]BlueprintLog: New page: Compile WBP_CraftingSlot
+[2024.11.15-19.14.52:322][319]LogBlueprint: Warning: [AssetLog] C:\Users\liam1\Downloads\ElementalClickerGame\ElementalClickerGame\Content\UI\Widgets\Inventory\WBP_CraftingSlot.uasset: [Compiler] Could not find a variable named "stateType" in 'WBP_CraftingSlot_C'.
+Make sure 'WBP_CraftingSlot_C' has been compiled for  Get stateType
+[2024.11.15-19.14.52:323][319]LogBlueprint: Error: [AssetLog] C:\Users\liam1\Downloads\ElementalClickerGame\ElementalClickerGame\Content\UI\Widgets\Inventory\WBP_CraftingSlot.uasset: [Compiler] The property associated with  State Type  could not be found in '/Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot_C'
+[2024.11.15-19.14.52:377][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.15-19.14.59:270][ 14]BlueprintLog: New page: Compile WBP_CraftingSlot
+[2024.11.15-19.14.59:336][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.11.15-19.14.59:498][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.14.59:549][ 14]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_CraftingSlot
+[2024.11.15-19.14.59:549][ 14]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CraftingSlot887B8E39417519B4EE1D3FB44C176BEA.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_CraftingSlot.uasset'
+[2024.11.15-19.14.59:558][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 11.4 sec)
+[2024.11.15-19.14.59:584][ 14]AssetCheck: New page: Asset Save: WBP_CraftingSlot
+[2024.11.15-19.14.59:584][ 14]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot
+[2024.11.15-19.15.00:139][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.15.00:191][ 59]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_CraftingSlot
+[2024.11.15-19.15.00:192][ 59]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CraftingSlotCC3C56284D3D60F0B14675AC97DD3AA5.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_CraftingSlot.uasset'
+[2024.11.15-19.15.00:199][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 11.5 sec)
+[2024.11.15-19.15.00:201][ 59]AssetCheck: New page: Asset Save: WBP_CraftingSlot
+[2024.11.15-19.15.00:201][ 59]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot
+[2024.11.15-19.15.00:844][135]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.15.00:891][135]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_CraftingSlot
+[2024.11.15-19.15.00:892][135]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CraftingSlotB7A389994CF3B05476FA3192FC04D1C0.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_CraftingSlot.uasset'
+[2024.11.15-19.15.00:899][135]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 11.5 sec)
+[2024.11.15-19.15.00:901][135]AssetCheck: New page: Asset Save: WBP_CraftingSlot
+[2024.11.15-19.15.00:901][135]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot
+[2024.11.15-19.15.19:928][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.15.19:978][286]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_CraftingSlot
+[2024.11.15-19.15.19:979][286]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CraftingSlotF2C74EE14A6A8DB69D0C18A39F9068F2.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_CraftingSlot.uasset'
+[2024.11.15-19.15.19:987][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 11.6 sec)
+[2024.11.15-19.15.19:988][286]AssetCheck: New page: Asset Save: WBP_CraftingSlot
+[2024.11.15-19.15.19:988][286]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot
+[2024.11.15-19.15.40:837][607]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.15.40:894][607]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_CraftingSlot
+[2024.11.15-19.15.40:895][607]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CraftingSlot714D417C405182CF6C4E6CB9F005E8AF.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_CraftingSlot.uasset'
+[2024.11.15-19.15.40:902][607]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 11.6 sec)
+[2024.11.15-19.15.40:903][607]AssetCheck: New page: Asset Save: WBP_CraftingSlot
+[2024.11.15-19.15.40:903][607]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot
+[2024.11.15-19.15.41:655][689]BlueprintLog: New page: Compile WBP_CraftingSlot
+[2024.11.15-19.15.41:722][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.15-19.15.55:689][173]LogEditorTransaction: Undo Delete current selection
+[2024.11.15-19.16.17:993][522]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.16.18:043][522]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_CraftingSlot
+[2024.11.15-19.16.18:044][522]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_CraftingSlot774A186442779483C2FFDB932FDEB2B3.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_CraftingSlot.uasset'
+[2024.11.15-19.16.18:051][522]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 11.7 sec)
+[2024.11.15-19.16.18:051][522]AssetCheck: New page: Asset Save: WBP_CraftingSlot
+[2024.11.15-19.16.18:051][522]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_CraftingSlot.WBP_CraftingSlot
+[2024.11.15-19.16.18:811][611]BlueprintLog: New page: Compile WBP_CraftingSlot
+[2024.11.15-19.16.18:888][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.11.15-19.16.21:184][790]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.16.21:190][790]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.16.21:190][790]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.16.21:191][790]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 40 ms)
+[2024.11.15-19.16.21:191][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.16.21:191][790]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:16:21)
+[2024.11.15-19.16.21:192][790]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.16.21:195][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002832s)
+[2024.11.15-19.16.21:195][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002864s)
+[2024.11.15-19.16.21:212][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.11.15-19.16.21:214][790]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.16.21:214][790]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.16.21:215][790]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.16.21:215][790]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.16.21:215][790]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.16.21:215][790]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.16.21:215][790]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.16.21:216][790]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.16.21:216][790]LogWorldPartition: Display: WorldPartition initialize took 871 us (total: 163 ms)
+[2024.11.15-19.16.21:216][790]LogPlayLevel: PIE: World Init took: (0.002082s)
+[2024.11.15-19.16.21:216][790]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2024.11.15-19.16.21:216][790]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.16.21:216][790]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.16.21:216][790]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.16.21:216][790]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.16.21:216][790]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.16.21:216][790]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.16.21:216][790]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.16.21:216][790]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.16.21:217][790]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.16.21:217][790]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.16.21:217][790]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.16.21:219][790]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.16.21:251][790]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.16.21:251][790]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.16.21:251][790]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.16.21:251][790]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.16.21:252][790]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2024.11.15-19.16.21:252][790]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2024.11.15-19.16.21:253][790]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2024.11.15-19.16.21:253][790]LogInit: FAudioDevice initialized with ID 31.
+[2024.11.15-19.16.21:253][790]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2024.11.15-19.16.21:253][790]LogAudio: Display: Audio Device (ID: 31) registered with world 'FirstPersonMap'.
+[2024.11.15-19.16.21:253][790]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2024.11.15-19.16.21:256][790]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.16.21:257][790]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.16.21
+[2024.11.15-19.16.21:258][790]LogWorld: Bringing up level for play took: 0.001021
+[2024.11.15-19.16.21:259][790]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2024.11.15-19.16.21:263][790]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.16.21:263][790]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.16.21:263][790]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.16.21:263][790]PIE: Server logged in
+[2024.11.15-19.16.21:264][790]PIE: Play in editor total start time 0.074 seconds.
+[2024.11.15-19.16.22:326][882]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.16.22:326][882]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.16.24:289][ 90]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.16.24:289][ 90]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.16.24:289][ 90]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.16.27:170][404]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.16.27:170][404]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.16.31:211][830]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.16.31:211][830]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.16.31:211][830]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.17.02:011][574]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.17.08:043][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.17.08:043][192]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.17.08:044][192]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.17.08:044][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.17.08:044][192]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.17.08:047][192]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.17.08:054][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.17.08:071][192]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.17.08:072][192]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2024.11.15-19.17.08:072][192]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.11.15-19.17.08:074][192]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.11.15-19.17.08:077][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.17.08:082][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.11.15-19.17.08:164][193]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2024.11.15-19.17.58:814][696]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.17.58:860][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.11.15-19.17.58:951][696]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.17.59:020][696]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.17.59:020][696]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotA604D66E4D5DA74DC8ECB4AB03B7B679.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.17.59:029][696]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 11.8 sec)
+[2024.11.15-19.17.59:039][696]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.17.59:039][696]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.17.59:705][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.17.59:761][741]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.17.59:761][741]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotC3CE101E4B9871D7E0FA00A84A50FF4C.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.17.59:770][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 11.8 sec)
+[2024.11.15-19.17.59:772][741]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.17.59:772][741]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.18.15:405][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.18.15:472][402]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.18.15:473][402]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot333DA4174E6D1F0CE6D11594D3F3CDF9.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.18.15:481][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 11.9 sec)
+[2024.11.15-19.18.15:483][402]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.18.15:483][402]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.18.16:139][479]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.18.16:192][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.15-19.18.19:895][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.18.19:952][838]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.18.19:952][838]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot04D1C22C4A0A62B284E101B94C85DAED.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.18.19:960][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 12.0 sec)
+[2024.11.15-19.18.19:962][838]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.18.19:962][838]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.18.20:808][938]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.18.20:865][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.11.15-19.18.22:916][112]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.18.22:923][112]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.18.22:923][112]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.18.22:925][112]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 42 ms)
+[2024.11.15-19.18.22:925][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.18.22:925][112]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:18:22)
+[2024.11.15-19.18.22:925][112]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.18.22:929][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003585s)
+[2024.11.15-19.18.22:929][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003620s)
+[2024.11.15-19.18.22:945][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.15-19.18.22:949][112]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.18.22:949][112]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.18.22:950][112]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.18.22:950][112]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.18.22:950][112]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.18.22:950][112]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.18.22:950][112]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.18.22:951][112]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.18.22:951][112]LogWorldPartition: Display: WorldPartition initialize took 810 us (total: 164 ms)
+[2024.11.15-19.18.22:951][112]LogPlayLevel: PIE: World Init took: (0.001925s)
+[2024.11.15-19.18.22:951][112]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2024.11.15-19.18.22:951][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.18.22:951][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.18.22:951][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.18.22:951][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.18.22:951][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.18.22:951][112]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.18.22:951][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.18.22:951][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.18.22:952][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.18.22:952][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.18.22:952][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.18.22:953][112]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.18.22:985][112]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.18.22:985][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.18.22:985][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.18.22:985][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.18.22:987][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2024.11.15-19.18.22:987][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2024.11.15-19.18.22:988][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2024.11.15-19.18.22:988][112]LogInit: FAudioDevice initialized with ID 32.
+[2024.11.15-19.18.22:988][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2024.11.15-19.18.22:988][112]LogAudio: Display: Audio Device (ID: 32) registered with world 'FirstPersonMap'.
+[2024.11.15-19.18.22:988][112]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2024.11.15-19.18.22:991][112]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.18.22:992][112]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.18.22
+[2024.11.15-19.18.22:992][112]LogWorld: Bringing up level for play took: 0.000992
+[2024.11.15-19.18.22:995][112]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2024.11.15-19.18.22:998][112]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.18.22:998][112]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.18.22:998][112]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.18.22:998][112]PIE: Server logged in
+[2024.11.15-19.18.22:999][112]PIE: Play in editor total start time 0.075 seconds.
+[2024.11.15-19.18.23:873][185]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.18.23:873][185]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.18.24:391][243]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.18.24:391][243]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.18.24:391][243]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.18.27:635][599]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.18.27:635][599]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.18.31:169][975]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.18.31:169][975]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.18.31:169][975]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.18.33:740][253]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.19.01:174][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.19.01:174][151]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.19.01:175][151]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.19.01:175][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.19.01:175][151]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.19.01:178][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.19.01:184][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.19.01:225][151]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.19.01:226][151]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2024.11.15-19.19.01:226][151]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.11.15-19.19.01:227][151]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.11.15-19.19.01:231][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.19.01:235][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.11.15-19.19.01:319][152]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.11.15-19.19.21:077][331]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.19.21:123][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.15-19.19.21:187][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.19.21:256][331]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.19.21:256][331]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotA20448F6455BADC6DB68BC942C2497DA.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.19.21:264][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 12.1 sec)
+[2024.11.15-19.19.21:267][331]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.19.21:267][331]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.19.22:179][415]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.19.22:240][415]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.19.22:240][415]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotFBE0D93D4B41667B1BF371B0DE3A5B1B.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.19.22:247][415]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 12.1 sec)
+[2024.11.15-19.19.22:249][415]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.19.22:249][415]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.19.23:738][532]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.19.23:745][532]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.19.23:745][532]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.19.23:746][532]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 43 ms)
+[2024.11.15-19.19.23:746][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.19.23:746][532]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:19:23)
+[2024.11.15-19.19.23:746][532]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.19.23:749][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002747s)
+[2024.11.15-19.19.23:749][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002774s)
+[2024.11.15-19.19.23:765][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.15-19.19.23:768][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.19.23:768][532]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.19.23:769][532]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.19.23:769][532]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.19.23:769][532]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.19.23:769][532]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.19.23:769][532]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.19.23:770][532]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.19.23:770][532]LogWorldPartition: Display: WorldPartition initialize took 828 us (total: 164 ms)
+[2024.11.15-19.19.23:770][532]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2024.11.15-19.19.23:770][532]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.11.15-19.19.23:770][532]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.19.23:770][532]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.19.23:770][532]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.19.23:770][532]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.19.23:770][532]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.19.23:770][532]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.19.23:770][532]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.19.23:770][532]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.19.23:770][532]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.19.23:770][532]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.19.23:770][532]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.19.23:772][532]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.19.23:803][532]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.19.23:803][532]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.19.23:804][532]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.19.23:804][532]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.19.23:804][532]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.11.15-19.19.23:804][532]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.11.15-19.19.23:806][532]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.11.15-19.19.23:806][532]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.11.15-19.19.23:806][532]LogInit: FAudioDevice initialized with ID 33.
+[2024.11.15-19.19.23:806][532]LogAudio: Display: Audio Device (ID: 33) registered with world 'FirstPersonMap'.
+[2024.11.15-19.19.23:806][532]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.11.15-19.19.23:808][532]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.19.23:809][532]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.19.23
+[2024.11.15-19.19.23:810][532]LogWorld: Bringing up level for play took: 0.000994
+[2024.11.15-19.19.23:812][532]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2024.11.15-19.19.23:815][532]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.19.23:815][532]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.19.23:815][532]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.19.23:815][532]PIE: Server logged in
+[2024.11.15-19.19.23:816][532]PIE: Play in editor total start time 0.071 seconds.
+[2024.11.15-19.19.24:914][632]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.19.24:914][632]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.19.26:533][806]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.19.26:533][806]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.19.26:533][806]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.19.29:215][ 98]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.19.29:215][ 98]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.19.32:385][433]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.19.32:385][433]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.19.32:385][433]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.19.34:277][635]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.19.39:320][183]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.19.45:914][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.19.45:914][887]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.19.45:915][887]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.19.45:915][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.19.45:915][887]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.19.45:918][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.19.45:923][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.19.45:941][887]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.19.45:942][887]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.11.15-19.19.45:942][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.11.15-19.19.45:943][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.11.15-19.19.45:946][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.19.45:952][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.15-19.19.46:034][888]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.11.15-19.20.15:435][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.20.15:506][255]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.20.15:507][255]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot9C5EBEFB46B6AD13E34ABE8C841A3373.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.20.15:515][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 12.2 sec)
+[2024.11.15-19.20.15:516][255]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.20.15:516][255]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.20.16:213][330]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.20.16:510][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.11.15-19.20.18:348][462]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.20.18:354][462]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.20.18:354][462]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.20.18:355][462]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 44 ms)
+[2024.11.15-19.20.18:356][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.20.18:356][462]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:20:18)
+[2024.11.15-19.20.18:356][462]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.20.18:359][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002786s)
+[2024.11.15-19.20.18:359][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002813s)
+[2024.11.15-19.20.18:374][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.15-19.20.18:378][462]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.20.18:378][462]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.20.18:378][462]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.20.18:379][462]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.20.18:379][462]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.20.18:379][462]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.20.18:379][462]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.20.18:379][462]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.20.18:379][462]LogWorldPartition: Display: WorldPartition initialize took 807 us (total: 165 ms)
+[2024.11.15-19.20.18:379][462]LogPlayLevel: PIE: World Init took: (0.001852s)
+[2024.11.15-19.20.18:379][462]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.11.15-19.20.18:380][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.20.18:380][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.20.18:380][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.20.18:380][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.20.18:380][462]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.20.18:380][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.20.18:380][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.20.18:380][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.20.18:380][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.20.18:380][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.20.18:380][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.20.18:382][462]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.20.18:412][462]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.20.18:413][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.20.18:413][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.20.18:413][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.20.18:413][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.11.15-19.20.18:413][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.11.15-19.20.18:415][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.11.15-19.20.18:415][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.11.15-19.20.18:415][462]LogInit: FAudioDevice initialized with ID 34.
+[2024.11.15-19.20.18:415][462]LogAudio: Display: Audio Device (ID: 34) registered with world 'FirstPersonMap'.
+[2024.11.15-19.20.18:415][462]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.11.15-19.20.18:418][462]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.20.18:419][462]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.20.18
+[2024.11.15-19.20.18:419][462]LogWorld: Bringing up level for play took: 0.000991
+[2024.11.15-19.20.18:421][462]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2024.11.15-19.20.18:424][462]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.20.18:424][462]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.20.18:424][462]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.20.18:424][462]PIE: Server logged in
+[2024.11.15-19.20.18:425][462]PIE: Play in editor total start time 0.071 seconds.
+[2024.11.15-19.20.19:338][536]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.20.19:338][536]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.20.22:708][896]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.20.22:708][896]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.20.22:708][896]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.20.25:298][176]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.20.25:298][176]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.20.25:665][215]LogBlueprintUserMessages: [WBP_ItemSlot_C_0] Hello
+[2024.11.15-19.20.25:759][224]LogBlueprintUserMessages: [WBP_ItemSlot_C_1] Hello
+[2024.11.15-19.20.26:062][256]LogBlueprintUserMessages: [WBP_ItemSlot_C_0] Hello
+[2024.11.15-19.20.26:165][267]LogBlueprintUserMessages: [WBP_ItemSlot_C_1] Hello
+[2024.11.15-19.20.26:264][278]LogBlueprintUserMessages: [WBP_ItemSlot_C_2] Hello
+[2024.11.15-19.20.26:367][289]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.20.26:367][289]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.20.26:367][289]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.20.26:367][289]LogBlueprintUserMessages: [WBP_ItemSlot_C_3] Hello
+[2024.11.15-19.20.27:656][426]LogBlueprintUserMessages: [WBP_ItemSlot_C_0] Hello
+[2024.11.15-19.20.29:817][663]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.20.31:795][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.20.31:795][865]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.20.31:795][865]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.20.31:796][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.20.31:796][865]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.20.31:799][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.20.31:805][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.20.31:821][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.20.31:822][865]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.11.15-19.20.31:822][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.11.15-19.20.31:824][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.11.15-19.20.31:832][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2024.11.15-19.20.31:913][866]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.11.15-19.20.35:422][176]LogEditorTransaction: Undo Add Node
+[2024.11.15-19.20.36:211][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.20.36:278][219]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.20.36:278][219]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotA41C059D4CAA07273443D1BD05FE7528.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.20.36:287][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 12.3 sec)
+[2024.11.15-19.20.36:289][219]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.20.36:289][219]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.20.36:871][280]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.20.36:964][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.15-19.21.44:414][765]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.21.44:480][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.15-19.21.44:732][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.21.44:825][765]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.21.44:825][765]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot9E4DF90E45D61848912F1DB395279615.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.21.44:834][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 12.4 sec)
+[2024.11.15-19.21.44:836][765]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.21.44:836][765]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.21.51:814][528]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.21.51:866][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.15-19.21.51:928][528]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.21.51:994][528]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.21.51:995][528]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot9926B8024A6895E26DA1E6B9660C84FE.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.21.52:002][528]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 12.5 sec)
+[2024.11.15-19.21.52:003][528]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.21.52:003][528]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.21.52:704][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.21.52:768][584]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.21.52:769][584]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot2660207D484027BEC51354A6276C23E4.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.21.52:776][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 12.5 sec)
+[2024.11.15-19.21.52:778][584]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.21.52:778][584]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.21.53:941][670]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.21.53:948][670]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.21.53:948][670]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.21.53:949][670]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 45 ms)
+[2024.11.15-19.21.53:949][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.21.53:949][670]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:21:53)
+[2024.11.15-19.21.53:949][670]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.21.53:952][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002848s)
+[2024.11.15-19.21.53:952][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002877s)
+[2024.11.15-19.21.53:968][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.15-19.21.53:972][670]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.21.53:972][670]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.21.53:973][670]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.21.53:973][670]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.21.53:973][670]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.21.53:973][670]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.21.53:973][670]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.21.53:974][670]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.21.53:974][670]LogWorldPartition: Display: WorldPartition initialize took 832 us (total: 166 ms)
+[2024.11.15-19.21.53:974][670]LogPlayLevel: PIE: World Init took: (0.001919s)
+[2024.11.15-19.21.53:974][670]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2024.11.15-19.21.53:974][670]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.21.53:974][670]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.21.53:974][670]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.21.53:974][670]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.21.53:974][670]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.21.53:974][670]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.21.53:974][670]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.21.53:974][670]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.21.53:975][670]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.21.53:975][670]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.21.53:975][670]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.21.53:977][670]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.21.54:011][670]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.21.54:011][670]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.21.54:011][670]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.21.54:011][670]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.21.54:012][670]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2024.11.15-19.21.54:012][670]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2024.11.15-19.21.54:014][670]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2024.11.15-19.21.54:014][670]LogInit: FAudioDevice initialized with ID 35.
+[2024.11.15-19.21.54:014][670]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2024.11.15-19.21.54:014][670]LogAudio: Display: Audio Device (ID: 35) registered with world 'FirstPersonMap'.
+[2024.11.15-19.21.54:014][670]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2024.11.15-19.21.54:016][670]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.21.54:017][670]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.21.54
+[2024.11.15-19.21.54:018][670]LogWorld: Bringing up level for play took: 0.001027
+[2024.11.15-19.21.54:019][670]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2024.11.15-19.21.54:023][670]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.21.54:023][670]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.21.54:023][670]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.21.54:023][670]PIE: Server logged in
+[2024.11.15-19.21.54:024][670]PIE: Play in editor total start time 0.075 seconds.
+[2024.11.15-19.21.54:825][730]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.21.54:825][730]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.21.57:502][ 14]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.21.57:502][ 14]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.21.57:502][ 14]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.21.58:273][ 98]LogBlueprintUserMessages: [AC_Inventory] Nothing left in inventory!
+[2024.11.15-19.22.02:515][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.22.02:515][541]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.22.02:516][541]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.22.02:516][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.22.02:516][541]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.22.02:519][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.22.02:524][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.22.02:541][541]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.22.02:541][541]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2024.11.15-19.22.02:541][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.11.15-19.22.02:543][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.11.15-19.22.02:546][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.22.02:551][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.15-19.22.02:632][542]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2024.11.15-19.22.07:388][ 86]LogEditorTransaction: Undo Delete current selection
+[2024.11.15-19.22.17:794][245]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.22.17:974][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.11.15-19.22.18:042][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.22.18:111][245]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.22.18:111][245]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot089548414DB9CCFF79555492FE3DD1DF.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.22.18:119][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 12.6 sec)
+[2024.11.15-19.22.18:121][245]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.22.18:121][245]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.22.36:281][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.22.36:347][ 35]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.22.36:348][ 35]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotCB7539334E71CBFDEF9E978EEA5F8611.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.22.36:354][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 12.7 sec)
+[2024.11.15-19.22.36:356][ 35]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.22.36:356][ 35]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.22.38:250][219]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.22.38:257][219]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.22.38:257][219]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.22.38:258][219]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 47 ms)
+[2024.11.15-19.22.38:258][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.22.38:258][219]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:22:38)
+[2024.11.15-19.22.38:258][219]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.22.38:261][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002958s)
+[2024.11.15-19.22.38:261][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002989s)
+[2024.11.15-19.22.38:278][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.15-19.22.38:283][219]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.22.38:283][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.22.38:283][219]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.22.38:284][219]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.22.38:284][219]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.22.38:284][219]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.22.38:284][219]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.22.38:285][219]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.22.38:285][219]LogWorldPartition: Display: WorldPartition initialize took 828 us (total: 167 ms)
+[2024.11.15-19.22.38:285][219]LogPlayLevel: PIE: World Init took: (0.001922s)
+[2024.11.15-19.22.38:285][219]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2024.11.15-19.22.38:285][219]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.22.38:285][219]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.22.38:285][219]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.22.38:285][219]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.22.38:285][219]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.22.38:285][219]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.22.38:285][219]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.22.38:285][219]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.22.38:285][219]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.22.38:285][219]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.22.38:285][219]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.22.38:287][219]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.22.38:322][219]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.22.38:322][219]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.22.38:322][219]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.22.38:322][219]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.22.38:323][219]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2024.11.15-19.22.38:323][219]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2024.11.15-19.22.38:324][219]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2024.11.15-19.22.38:324][219]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2024.11.15-19.22.38:324][219]LogInit: FAudioDevice initialized with ID 36.
+[2024.11.15-19.22.38:324][219]LogAudio: Display: Audio Device (ID: 36) registered with world 'FirstPersonMap'.
+[2024.11.15-19.22.38:324][219]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2024.11.15-19.22.38:327][219]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.22.38:329][219]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.22.38
+[2024.11.15-19.22.38:330][219]LogWorld: Bringing up level for play took: 0.001051
+[2024.11.15-19.22.38:331][219]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.11.15-19.22.38:335][219]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.22.38:335][219]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.22.38:335][219]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.22.38:335][219]PIE: Server logged in
+[2024.11.15-19.22.38:336][219]PIE: Play in editor total start time 0.078 seconds.
+[2024.11.15-19.22.39:237][297]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.22.39:237][297]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.22.43:887][790]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.22.43:887][790]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.22.43:887][790]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.22.49:227][366]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.22.49:227][366]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.22.53:198][782]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.22.53:198][782]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.22.53:198][782]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.22.55:436][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.22.55:437][ 16]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.22.55:437][ 16]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.22.55:437][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.22.55:437][ 16]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.22.55:440][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.22.55:445][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.22.55:463][ 16]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.22.55:463][ 16]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2024.11.15-19.22.55:463][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.11.15-19.22.55:465][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.11.15-19.22.55:468][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.22.55:473][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.15-19.22.55:558][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.11.15-19.22.56:304][ 75]LogViewport: Scene viewport resized to 1102x563, mode Windowed.
+[2024.11.15-19.22.58:464][274]LogViewport: Scene viewport resized to 2201x1235, mode Windowed.
+[2024.11.15-19.23.34:589][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.15-19.23.34:592][435]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.021
+[2024.11.15-19.23.34:592][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Data/Structs/s_InventorySystem] ([1] browsable assets)...
+[2024.11.15-19.23.34:592][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/Data/Structs/s_InventorySystem]
+[2024.11.15-19.23.34:593][435]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Data/Structs/s_InventorySystem_Auto9
+[2024.11.15-19.23.34:593][435]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/s_InventorySystem_Auto9F817BBA04DFDE4FE56F28BB795E74E90.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/Autosaves/Game/Data/Structs/s_InventorySystem_Auto9.uasset'
+[2024.11.15-19.23.34:594][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Data/Structs/s_CraftingSystem] ([1] browsable assets)...
+[2024.11.15-19.23.34:594][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/Data/Structs/s_CraftingSystem]
+[2024.11.15-19.23.34:595][435]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Data/Structs/s_CraftingSystem_Auto9
+[2024.11.15-19.23.34:596][435]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/s_CraftingSystem_Auto94824B41F42E4F3F9CDD5C283DDA66683.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/Autosaves/Game/Data/Structs/s_CraftingSystem_Auto9.uasset'
+[2024.11.15-19.23.34:596][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Data/DataTables/DT_Recipes] ([1] browsable assets)...
+[2024.11.15-19.23.34:596][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/Data/DataTables/DT_Recipes]
+[2024.11.15-19.23.34:597][435]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Data/DataTables/DT_Recipes_Auto9
+[2024.11.15-19.23.34:597][435]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/DT_Recipes_Auto9CDEAFAF4439D91B68C01A8BFDD70FD73.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/Autosaves/Game/Data/DataTables/DT_Recipes_Auto9.uasset'
+[2024.11.15-19.23.34:598][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Icons/popupBG] ([1] browsable assets)...
+[2024.11.15-19.23.34:598][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Icons/popupBG]
+[2024.11.15-19.23.34:599][435]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/Icons/popupBG_Auto9
+[2024.11.15-19.23.34:599][435]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/popupBG_Auto9AAFD6A9347E3CAF589CF8C88BE91A317.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/Autosaves/Game/UI/Icons/popupBG_Auto9.uasset'
+[2024.11.15-19.23.34:600][435]LogFileHelpers: Auto-saving content packages took 0.008
+[2024.11.15-19.24.01:017][386]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.24.01:074][386]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.24.01:075][386]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotEAB74FD64684C8D2A25118A24AD17A38.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.24.01:082][386]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 12.7 sec)
+[2024.11.15-19.24.01:084][386]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.24.01:084][386]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.24.01:491][433]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.24.01:543][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.15-19.24.02:828][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.24.02:835][513]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.24.02:835][513]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.24.02:836][513]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 48 ms)
+[2024.11.15-19.24.02:836][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.24.02:836][513]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:24:02)
+[2024.11.15-19.24.02:836][513]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.24.02:839][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002765s)
+[2024.11.15-19.24.02:839][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002794s)
+[2024.11.15-19.24.02:855][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.15-19.24.02:858][513]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.24.02:858][513]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.24.02:858][513]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.24.02:859][513]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.24.02:859][513]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.24.02:859][513]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.24.02:859][513]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.24.02:859][513]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.24.02:860][513]LogWorldPartition: Display: WorldPartition initialize took 822 us (total: 168 ms)
+[2024.11.15-19.24.02:860][513]LogPlayLevel: PIE: World Init took: (0.001913s)
+[2024.11.15-19.24.02:860][513]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2024.11.15-19.24.02:860][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.24.02:860][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.24.02:860][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.24.02:860][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.24.02:860][513]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.24.02:860][513]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.24.02:860][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.24.02:860][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.24.02:860][513]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.24.02:860][513]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.24.02:860][513]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.24.02:862][513]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.24.02:892][513]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.24.02:892][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.24.02:893][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.24.02:893][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.24.02:893][513]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2024.11.15-19.24.02:893][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2024.11.15-19.24.02:895][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2024.11.15-19.24.02:895][513]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2024.11.15-19.24.02:895][513]LogInit: FAudioDevice initialized with ID 37.
+[2024.11.15-19.24.02:895][513]LogAudio: Display: Audio Device (ID: 37) registered with world 'FirstPersonMap'.
+[2024.11.15-19.24.02:895][513]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2024.11.15-19.24.02:897][513]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.24.02:899][513]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.24.02
+[2024.11.15-19.24.02:899][513]LogWorld: Bringing up level for play took: 0.000993
+[2024.11.15-19.24.02:901][513]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2024.11.15-19.24.02:904][513]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.24.02:904][513]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.24.02:904][513]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.24.02:904][513]PIE: Server logged in
+[2024.11.15-19.24.02:905][513]PIE: Play in editor total start time 0.07 seconds.
+[2024.11.15-19.24.13:619][471]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.24.13:619][471]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.24.15:311][648]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.24.15:311][648]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.24.15:311][648]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.24.18:761][ 15]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.24.18:761][ 15]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.24.22:216][378]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.24.22:216][378]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.24.22:216][378]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.24.24:135][577]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.24.24:135][577]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.24.24:966][665]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.24.24:966][665]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.24.24:966][665]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.24.27:229][907]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.24.31:342][347]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.24.32:570][478]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.24.34:177][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.24.34:177][642]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.24.34:177][642]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.24.34:177][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.24.34:177][642]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.24.34:180][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.24.34:186][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.24.34:203][642]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.24.34:203][642]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2024.11.15-19.24.34:203][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.11.15-19.24.34:204][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.11.15-19.24.34:207][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.24.34:212][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.11.15-19.24.34:301][643]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2024.11.15-19.24.38:985][137]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.24.39:031][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.15-19.24.39:099][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.24.39:156][137]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.24.39:157][137]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlotE2F22174419F0060571C819CF0D8B2C6.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.24.39:165][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 12.8 sec)
+[2024.11.15-19.24.39:167][137]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.24.39:167][137]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.24.40:456][222]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.24.40:462][222]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.24.40:462][222]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.24.40:464][222]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 49 ms)
+[2024.11.15-19.24.40:464][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.24.40:464][222]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:24:40)
+[2024.11.15-19.24.40:464][222]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.24.40:467][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002810s)
+[2024.11.15-19.24.40:467][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002838s)
+[2024.11.15-19.24.40:484][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.11.15-19.24.40:487][222]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.24.40:487][222]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.24.40:487][222]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.24.40:488][222]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.24.40:488][222]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.24.40:488][222]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.24.40:488][222]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.24.40:489][222]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.24.40:489][222]LogWorldPartition: Display: WorldPartition initialize took 897 us (total: 169 ms)
+[2024.11.15-19.24.40:489][222]LogPlayLevel: PIE: World Init took: (0.002105s)
+[2024.11.15-19.24.40:489][222]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.11.15-19.24.40:489][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.24.40:489][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.24.40:489][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.24.40:489][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.24.40:489][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.24.40:489][222]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.24.40:489][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.24.40:489][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.24.40:490][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.24.40:490][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.24.40:490][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.24.40:491][222]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.24.40:523][222]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.24.40:523][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.24.40:523][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.24.40:523][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.24.40:523][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2024.11.15-19.24.40:523][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2024.11.15-19.24.40:525][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2024.11.15-19.24.40:525][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2024.11.15-19.24.40:525][222]LogInit: FAudioDevice initialized with ID 38.
+[2024.11.15-19.24.40:525][222]LogAudio: Display: Audio Device (ID: 38) registered with world 'FirstPersonMap'.
+[2024.11.15-19.24.40:525][222]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2024.11.15-19.24.40:528][222]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.24.40:529][222]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.24.40
+[2024.11.15-19.24.40:529][222]LogWorld: Bringing up level for play took: 0.001005
+[2024.11.15-19.24.40:531][222]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2024.11.15-19.24.40:535][222]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.24.40:535][222]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.24.40:535][222]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.24.40:535][222]PIE: Server logged in
+[2024.11.15-19.24.40:535][222]PIE: Play in editor total start time 0.074 seconds.
+[2024.11.15-19.24.41:528][303]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.24.41:528][303]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.24.44:581][624]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.24.44:581][624]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.24.44:581][624]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.24.47:184][904]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.24.47:184][904]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.24.49:849][183]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.24.49:849][183]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.24.49:849][183]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.24.51:775][393]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.24.55:567][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.24.55:567][792]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.24.55:568][792]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.24.55:568][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.24.55:568][792]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.24.55:571][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.24.55:577][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.24.55:595][792]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.24.55:595][792]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2024.11.15-19.24.55:595][792]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.11.15-19.24.55:597][792]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.11.15-19.24.55:600][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.24.55:604][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.15-19.24.55:697][793]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2024.11.15-19.25.21:146][749]BlueprintLog: New page: Compile WBP_ItemSlot
+[2024.11.15-19.25.21:190][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.15-19.25.21:258][749]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-19.25.21:322][749]LogSavePackage: Moving output files for package: /Game/UI/Widgets/Inventory/WBP_ItemSlot
+[2024.11.15-19.25.21:323][749]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/WBP_ItemSlot9DB6B4B74F037F1B5CD9A4A80FBA85B0.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Widgets/Inventory/WBP_ItemSlot.uasset'
+[2024.11.15-19.25.21:330][749]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 12.9 sec)
+[2024.11.15-19.25.21:332][749]AssetCheck: New page: Asset Save: WBP_ItemSlot
+[2024.11.15-19.25.21:332][749]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Widgets/Inventory/WBP_ItemSlot.WBP_ItemSlot
+[2024.11.15-19.25.23:554][960]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.15-19.25.23:561][960]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.15-19.25.23:561][960]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.15-19.25.23:562][960]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1 ms (total: 50 ms)
+[2024.11.15-19.25.23:562][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.15-19.25.23:562][960]PIE: New page: PIE session: FirstPersonMap (15 Nov 2024, 19:25:23)
+[2024.11.15-19.25.23:562][960]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.25.23:565][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002711s)
+[2024.11.15-19.25.23:565][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.002737s)
+[2024.11.15-19.25.23:580][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.15-19.25.23:583][960]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.15-19.25.23:583][960]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.15-19.25.23:584][960]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.15-19.25.23:584][960]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.15-19.25.23:584][960]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-19.25.23:584][960]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-19.25.23:584][960]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.15-19.25.23:585][960]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.15-19.25.23:585][960]LogWorldPartition: Display: WorldPartition initialize took 841 us (total: 169 ms)
+[2024.11.15-19.25.23:585][960]LogPlayLevel: PIE: World Init took: (0.001977s)
+[2024.11.15-19.25.23:585][960]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2024.11.15-19.25.23:585][960]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.15-19.25.23:585][960]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.15-19.25.23:585][960]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.15-19.25.23:585][960]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.15-19.25.23:585][960]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.15-19.25.23:585][960]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.15-19.25.23:585][960]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.15-19.25.23:585][960]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.15-19.25.23:586][960]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.15-19.25.23:586][960]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.15-19.25.23:586][960]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.15-19.25.23:587][960]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.15-19.25.23:618][960]LogAudioMixer: Display: Using Audio Hardware Device XB271HU A (NVIDIA High Definition Audio)
+[2024.11.15-19.25.23:618][960]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.15-19.25.23:618][960]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.15-19.25.23:618][960]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.15-19.25.23:619][960]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2024.11.15-19.25.23:619][960]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2024.11.15-19.25.23:620][960]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2024.11.15-19.25.23:620][960]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2024.11.15-19.25.23:620][960]LogInit: FAudioDevice initialized with ID 39.
+[2024.11.15-19.25.23:620][960]LogAudio: Display: Audio Device (ID: 39) registered with world 'FirstPersonMap'.
+[2024.11.15-19.25.23:620][960]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2024.11.15-19.25.23:623][960]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.15-19.25.23:624][960]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.11.15-19.25.23
+[2024.11.15-19.25.23:624][960]LogWorld: Bringing up level for play took: 0.000993
+[2024.11.15-19.25.23:626][960]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.11.15-19.25.23:630][960]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.25.23:630][960]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.25.23:630][960]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.15-19.25.23:630][960]PIE: Server logged in
+[2024.11.15-19.25.23:630][960]PIE: Play in editor total start time 0.07 seconds.
+[2024.11.15-19.25.24:667][ 51]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.25.24:667][ 51]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.25.28:097][414]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.25.28:097][414]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.25.28:097][414]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.25.29:442][555]LogBlueprintUserMessages: [AC_Inventory] Nothing left in inventory!
+[2024.11.15-19.25.30:816][704]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.25.30:816][704]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.48.02:321][585]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.48.02:321][585]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.48.02:321][585]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.48.06:356][  1]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.48.06:356][  1]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.48.07:682][144]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.48.07:682][144]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.48.07:682][144]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.48.11:675][566]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.48.13:652][779]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.48.14:091][825]LogBlueprintUserMessages: [AC_Inventory] updatung UI
+[2024.11.15-19.48.14:092][825]LogBlueprintUserMessages: [AC_Inventory] Nothing left in inventory!
+[2024.11.15-19.48.17:002][133]LogBlueprintUserMessages: [AC_Inventory] Nothing left in inventory!
+[2024.11.15-19.48.18:142][257]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.48.18:142][257]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.48.21:965][667]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.48.21:965][667]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.48.21:965][667]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.48.23:996][883]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.15-19.48.23:996][883]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.15-19.48.24:302][914]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.15-19.48.24:303][914]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.15-19.48.24:303][914]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.15-19.48.41:273][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.48.41:273][722]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.15-19.48.41:273][722]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-19.48.41:273][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.48.41:273][722]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-19.48.41:276][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.15-19.48.41:282][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-19.48.41:368][722]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-19.48.41:369][722]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2024.11.15-19.48.41:369][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.11.15-19.48.41:370][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.11.15-19.48.41:376][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.15-19.48.41:391][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.11.15-19.48.41:485][723]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.11.15-20.11.03:141][  8]LogDerivedDataCache: C:/Users/liam1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.125 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1265 files in 2194 folders with total size 60 MiB.
+[2024.11.15-21.11.04:332][810]LogDerivedDataCache: C:/Users/liam1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.316 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1265 files in 2194 folders with total size 60 MiB.
+[2024.11.15-21.12.15:614][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
+[2024.11.15-21.12.16:865][ 76]LogSlate: Window 'Save Content' being destroyed
+[2024.11.15-21.12.16:927][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-21.12.17:022][ 76]LogSavePackage: Moving output files for package: /Game/Data/DataTables/DT_Recipes
+[2024.11.15-21.12.17:023][ 76]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/DT_Recipes70B17D324726289D6AFE4A8E899B6A07.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/Data/DataTables/DT_Recipes.uasset'
+[2024.11.15-21.12.17:034][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Icons/popupBG" FILE="../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Icons/popupBG.uasset" SILENT=true
+[2024.11.15-21.12.17:055][ 76]LogSavePackage: Moving output files for package: /Game/UI/Icons/popupBG
+[2024.11.15-21.12.17:055][ 76]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/popupBG8317872640314FECD879BD8F3942812A.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/UI/Icons/popupBG.uasset'
+[2024.11.15-21.12.17:105][ 76]LogSavePackage: Moving output files for package: /Game/Data/Structs/s_CraftingSystem
+[2024.11.15-21.12.17:106][ 76]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/s_CraftingSystem020A82674CCACAF53053D6AC66668AF1.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/Data/Structs/s_CraftingSystem.uasset'
+[2024.11.15-21.12.17:111][ 76]LogSavePackage: Moving output files for package: /Game/Data/Structs/s_InventorySystem
+[2024.11.15-21.12.17:112][ 76]LogSavePackage: Moving '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Saved/s_InventorySystemD1F989A440786E10BE9B258799863FBE.tmp' to '../../../../../../Users/liam1/Downloads/ElementalClickerGame/ElementalClickerGame/Content/Data/Structs/s_InventorySystem.uasset'
+[2024.11.15-21.12.17:124][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 13.1 sec)
+[2024.11.15-21.12.17:127][ 76]LogStall: Shutdown...
+[2024.11.15-21.12.17:136][ 76]LogStall: Shutdown complete.
+[2024.11.15-21.12.17:712][ 76]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.17:712][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.18:718][ 76]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.18:719][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.18:727][ 76]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.18:727][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.19:120][ 76]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.19:120][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.19:128][ 76]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.19:128][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.19:405][ 76]LogWorld: UWorld::CleanupWorld for World_92, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.19:405][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.19:933][ 76]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.19:933][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.19:958][ 76]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.19:958][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.20:176][ 76]LogWorld: UWorld::CleanupWorld for World_115, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.20:176][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.20:185][ 76]LogWorld: UWorld::CleanupWorld for World_114, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.20:185][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.20:373][ 76]LogSlate: Window 'ElementalClickerGame - Unreal Editor' being destroyed
+[2024.11.15-21.12.20:749][ 76]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.15-21.12.20:749][ 76]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Data/DataTables/DT_Recipes.DT_Recipes
+[2024.11.15-21.12.20:750][ 76]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI/Icons/popupBG.popupBG
+[2024.11.15-21.12.20:750][ 76]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Data/Structs/s_CraftingSystem.s_CraftingSystem
+[2024.11.15-21.12.20:750][ 76]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Data/Structs/s_InventorySystem.s_InventorySystem
+[2024.11.15-21.12.20:755][ 77]Cmd: QUIT_EDITOR
+[2024.11.15-21.12.20:756][ 77]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.11.15-21.12.20:766][ 77]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.11.15-21.12.20:768][ 77]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.11.15-21.12.20:768][ 77]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.11.15-21.12.20:777][ 77]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-21.12.20:777][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-21.12.20:781][ 77]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.15-21.12.20:817][ 77]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.11.15-21.12.21:413][ 77]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.11.15-21.12.21:414][ 77]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.11.15-21.12.21:414][ 77]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2024.11.15-21.12.21:414][ 77]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.11.15-21.12.21:415][ 77]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.15-21.12.21:419][ 77]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.15-21.12.21:437][ 77]LogAudio: Display: Audio Device Manager Shutdown
+[2024.11.15-21.12.21:439][ 77]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2024.11.15-21.12.21:449][ 77]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.11.15-21.12.21:450][ 77]LogExit: Preparing to exit.
+[2024.11.15-21.12.21:526][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.11.15-21.12.21:563][ 77]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:564][ 77]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:573][ 77]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:575][ 77]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:575][ 77]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:575][ 77]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:575][ 77]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:576][ 77]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:576][ 77]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:576][ 77]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:576][ 77]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:576][ 77]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:577][ 77]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:577][ 77]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:577][ 77]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:577][ 77]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:577][ 77]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:577][ 77]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:577][ 77]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.15-21.12.21:578][ 77]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
